@@ -1,0 +1,89 @@
+{
+  "strong_support": true,
+  "formal_contrasts": [
+    {
+      "contrast_id": "F1",
+      "family": "founder_cost",
+      "direction": "negative",
+      "mean": -0.11344637732247047,
+      "ci_coverage": 0.975,
+      "ci_lo": -0.11407050931327745,
+      "ci_hi": -0.11281927338195594,
+      "direction_count": 30,
+      "n": 30,
+      "sign_p_raw": 9.313225746154785e-10,
+      "sign_p_holm": 1.862645149230957e-09,
+      "pass": true
+    },
+    {
+      "contrast_id": "F2",
+      "family": "founder_cost",
+      "direction": "negative",
+      "mean": -0.264508787115367,
+      "ci_coverage": 0.975,
+      "ci_lo": -0.2650530440687811,
+      "ci_hi": -0.2639491065722159,
+      "direction_count": 30,
+      "n": 30,
+      "sign_p_raw": 9.313225746154785e-10,
+      "sign_p_holm": 1.862645149230957e-09,
+      "pass": true
+    },
+    {
+      "contrast_id": "R1",
+      "family": "recovery",
+      "direction": "positive",
+      "mean": 0.05552186127291469,
+      "ci_coverage": 0.98333,
+      "ci_lo": 0.04739992794099654,
+      "ci_hi": 0.0637712574954844,
+      "direction_count": 30,
+      "n": 30,
+      "sign_p_raw": 9.313225746154785e-10,
+      "sign_p_holm": 2.7939677238464355e-09,
+      "pass": true
+    },
+    {
+      "contrast_id": "R2",
+      "family": "recovery",
+      "direction": "positive",
+      "mean": 0.03773826107229557,
+      "ci_coverage": 0.98333,
+      "ci_lo": 0.0371419360341561,
+      "ci_hi": 0.038362687162788525,
+      "direction_count": 30,
+      "n": 30,
+      "sign_p_raw": 9.313225746154785e-10,
+      "sign_p_holm": 2.7939677238464355e-09,
+      "pass": true
+    },
+    {
+      "contrast_id": "R3",
+      "family": "recovery",
+      "direction": "positive",
+      "mean": 0.05521077742375538,
+      "ci_coverage": 0.98333,
+      "ci_lo": 0.05303323497385243,
+      "ci_hi": 0.057472686622970615,
+      "direction_count": 30,
+      "n": 30,
+      "sign_p_raw": 9.313225746154785e-10,
+      "sign_p_holm": 2.7939677238464355e-09,
+      "pass": true
+    },
+    {
+      "contrast_id": "S1",
+      "family": "secondary_shape",
+      "direction": "positive",
+      "mean": 0.04297046996826019,
+      "ci_coverage": 0.95,
+      "ci_lo": 0.04241098107744229,
+      "ci_hi": 0.043553958007400355,
+      "direction_count": 30,
+      "n": 30,
+      "sign_p_raw": 9.313225746154785e-10,
+      "sign_p_holm": 9.313225746154785e-10,
+      "pass": true
+    }
+  ]
+}

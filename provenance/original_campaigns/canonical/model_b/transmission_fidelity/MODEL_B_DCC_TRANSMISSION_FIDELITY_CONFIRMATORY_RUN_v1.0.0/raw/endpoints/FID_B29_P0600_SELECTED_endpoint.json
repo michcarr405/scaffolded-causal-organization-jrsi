@@ -1,0 +1,17 @@
+{
+  "C_down_g250": 7.996176652562366e-06,
+  "F0": 17.09453125,
+  "F250": 17.49375,
+  "R_g250": -0.2524902343749993,
+  "ancestor_hash": "3573319a36d9e19e22ec5da28551747395cbb0b3cc8a9584fc279800cf4b9953",
+  "base_seed_uint32": 1613711760,
+  "block_id": "FID_B29",
+  "mode": "selected",
+  "native_g250": 17.279052734375,
+  "p_id": "P0600",
+  "p_inherit": 0.6,
+  "population_hash_g250": "acfea8b467f34a9cf9ac1499e33d5da9046063cd82c3bb131e3a73392f917ccf",
+  "reversed_g250": 17.53154296875,
+  "run_id": "FID_B29_P0600_SELECTED",
+  "validation_version": "v1.0.0"
+}

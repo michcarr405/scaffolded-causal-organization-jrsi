@@ -1,0 +1,86 @@
+T3 EVOLUTION START jobs 150 workers 5
+evolved 10 / 150
+evolved 20 / 150
+evolved 30 / 150
+evolved 40 / 150
+evolved 50 / 150
+evolved 60 / 150
+evolved 70 / 150
+evolved 80 / 150
+evolved 90 / 150
+evolved 100 / 150
+evolved 110 / 150
+evolved 120 / 150
+evolved 130 / 150
+evolved 140 / 150
+T3 EVOLUTION START jobs 1 workers 5
+evolved 1 / 1
+{
+  "execution_spec_sha256": "09f31f9cbc44d16a7f4f31961bffa5869b46d5205dc7e28354874bf39bf48cd1",
+  "full_curve_no_refit": {
+    "R2": 0.9663092375556395,
+    "RMSE": 0.0004875295526891196,
+    "n_points": 125
+  },
+  "n_blocks_per_strength": 30,
+  "n_evolution_pairs": 150,
+  "n_evolution_runs": 300,
+  "n_training_strengths": 5,
+  "peak_results": [
+    {
+      "abs_error": 0.015758389174386322,
+      "peak_DeltaC": 0.001589650174177095,
+      "q_peak_obs": 0.75,
+      "q_peak_pred": 0.7657583891743863,
+      "q_train": 1.75,
+      "signed_error": -0.015758389174386322,
+      "within_one_grid": true
+    },
+    {
+      "abs_error": 0.0945759823617961,
+      "peak_DeltaC": 0.002646475867890225,
+      "q_peak_obs": 0.75,
+      "q_peak_pred": 0.8445759823617961,
+      "q_train": 2.0,
+      "signed_error": -0.0945759823617961,
+      "within_one_grid": true
+    },
+    {
+      "abs_error": 0.08102876192402508,
+      "peak_DeltaC": 0.004594656577488665,
+      "q_peak_obs": 1.0,
+      "q_peak_pred": 1.081028761924025,
+      "q_train": 2.75,
+      "signed_error": -0.08102876192402508,
+      "within_one_grid": true
+    },
+    {
+      "abs_error": 0.11366394829884463,
+      "peak_DeltaC": 0.007003419243332942,
+      "q_peak_obs": 1.125,
+      "q_peak_pred": 1.2386639482988446,
+      "q_train": 3.25,
+      "signed_error": -0.11366394829884463,
+      "within_one_grid": true
+    },
+    {
+      "abs_error": 0.021299134673664177,
+      "peak_DeltaC": 0.009100633502509926,
+      "q_peak_obs": 1.375,
+      "q_peak_pred": 1.3962991346736642,
+      "q_train": 3.75,
+      "signed_error": -0.021299134673664177,
+      "within_one_grid": true
+    }
+  ],
+  "plan_sha256": "b211c35845c99051f374d7967c7752b830ce30c7cc45b844a751c15f0f80de8d",
+  "primary_peak_pass": true,
+  "primary_peak_required": 4,
+  "primary_peak_success_count": 5,
+  "seed_collision_audit": "PASS",
+  "signed_error_spearman": {
+    "no_systematic_monotonic_bias_pass": true,
+    "rho": -0.3,
+    "two_sided_p": 0.623837664781073
+  }
+}

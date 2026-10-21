@@ -1,0 +1,187 @@
+{
+  "A": {
+    "fitness_mean": {
+      "selected": 0.4279088001402533,
+      "neutral": 0.35834311899075255,
+      "delta": 0.06956568114950078,
+      "positive": 16,
+      "n": 16
+    },
+    "C_pop": {
+      "selected": 0.0024733062605562187,
+      "neutral": 0.0008123682699385681,
+      "delta": 0.0016609379906176512,
+      "positive": 14,
+      "n": 16
+    },
+    "R_pop": {
+      "selected": 0.14750414499068143,
+      "neutral": 0.05971172419498412,
+      "delta": 0.08779242079569732,
+      "positive": 16,
+      "n": 16
+    },
+    "V_rel": {
+      "selected": 0.025374398466034336,
+      "neutral": -0.004166456831616136,
+      "delta": 0.02954085529765047,
+      "positive": 16,
+      "n": 16
+    },
+    "founder_cost": {
+      "mean": -0.11360433794241792,
+      "negative": 16,
+      "n": 16
+    }
+  },
+  "B": [
+    {
+      "p": 0.35,
+      "Delta_fitness_mean": 0.005150639272117209,
+      "positive_fitness_mean": 6,
+      "Delta_C_pop": -1.9969235954041595e-05,
+      "positive_C_pop": 4,
+      "Delta_R_pop": 0.00011866931595965044,
+      "positive_R_pop": 5,
+      "Delta_V_rel": 0.0014484245667835821,
+      "positive_V_rel": 6
+    },
+    {
+      "p": 0.55,
+      "Delta_fitness_mean": 0.005070582573901625,
+      "positive_fitness_mean": 7,
+      "Delta_C_pop": -8.692728677293164e-05,
+      "positive_C_pop": 2,
+      "Delta_R_pop": -0.004436342586527413,
+      "positive_R_pop": 3,
+      "Delta_V_rel": 0.0009867456444243722,
+      "positive_V_rel": 5
+    },
+    {
+      "p": 0.75,
+      "Delta_fitness_mean": 0.022108798817447678,
+      "positive_fitness_mean": 8,
+      "Delta_C_pop": 9.779553536614387e-05,
+      "positive_C_pop": 6,
+      "Delta_R_pop": -0.0008915538480668006,
+      "positive_R_pop": 3,
+      "Delta_V_rel": 0.010458919332777539,
+      "positive_V_rel": 8
+    },
+    {
+      "p": 0.9,
+      "Delta_fitness_mean": 0.046691630779135275,
+      "positive_fitness_mean": 8,
+      "Delta_C_pop": 0.0003486279594181933,
+      "positive_C_pop": 6,
+      "Delta_R_pop": 0.03534758427474488,
+      "positive_R_pop": 8,
+      "Delta_V_rel": 0.018500615529517116,
+      "positive_V_rel": 8
+    },
+    {
+      "p": 0.975,
+      "Delta_fitness_mean": 0.07363783384304003,
+      "positive_fitness_mean": 8,
+      "Delta_C_pop": 0.0018064308844880637,
+      "positive_C_pop": 8,
+      "Delta_R_pop": 0.09652202362243856,
+      "positive_R_pop": 8,
+      "Delta_V_rel": 0.029679478463975152,
+      "positive_V_rel": 7
+    }
+  ],
+  "C": [
+    {
+      "train_strength": 1.0,
+      "peak_probe": 0.0,
+      "peak_DeltaC": -0.00015300646466522868,
+      "DeltaC_at_train": -0.00028459410896517
+    },
+    {
+      "train_strength": 1.5,
+      "peak_probe": 0.25,
+      "peak_DeltaC": 0.0011580807452730385,
+      "DeltaC_at_train": 0.000823769029871276
+    },
+    {
+      "train_strength": 2.0,
+      "peak_probe": 0.0,
+      "peak_DeltaC": 0.0023062200318929465,
+      "DeltaC_at_train": 0.0015410792049277157
+    },
+    {
+      "train_strength": 2.5,
+      "peak_probe": 0.5,
+      "peak_DeltaC": 0.0026090564541357214,
+      "DeltaC_at_train": 0.0016451401707887371
+    }
+  ],
+  "D": {
+    "range": 0.08145708430376204,
+    "distance2_unique": [
+      1.0
+    ],
+    "means": [
+      {
+        "direction": 0,
+        "phi_deg": 0.0,
+        "distance2": 1.0,
+        "DeltaH": 0.04867696857800119
+      },
+      {
+        "direction": 1,
+        "phi_deg": 45.0,
+        "distance2": 0.9999999999999998,
+        "DeltaH": 0.07497110129099531
+      },
+      {
+        "direction": 2,
+        "phi_deg": 90.0,
+        "distance2": 1.0,
+        "DeltaH": 0.09424303165263119
+      },
+      {
+        "direction": 3,
+        "phi_deg": 135.0,
+        "distance2": 1.0,
+        "DeltaH": 0.06444778566742654
+      },
+      {
+        "direction": 4,
+        "phi_deg": 180.0,
+        "distance2": 1.0,
+        "DeltaH": 0.02335297098958677
+      },
+      {
+        "direction": 5,
+        "phi_deg": 225.0,
+        "distance2": 1.0,
+        "DeltaH": 0.012785947348869153
+      },
+      {
+        "direction": 6,
+        "phi_deg": 270.0,
+        "distance2": 0.9999999999999999,
+        "DeltaH": 0.014912966145113254
+      },
+      {
+        "direction": 7,
+        "phi_deg": 315.0,
+        "distance2": 0.9999999999999998,
+        "DeltaH": 0.03394628842611938
+      }
+    ]
+  },
+  "model": {
+    "monomers": 4,
+    "dimers": 10,
+    "reactions": 4,
+    "N_DIMER": 32,
+    "POP": 48,
+    "GENS": 180,
+    "MU": 0.01,
+    "SEL": 24.0,
+    "AFF_SEED": 41721
+  }
+}

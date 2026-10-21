@@ -1,0 +1,70 @@
+{
+  "empirical_mean_curve_peak_q": 1.0,
+  "empirical_mean_curve_peak_ratio": 1.1875055676904005,
+  "fixed_prediction": {
+    "c": -0.24648168999601677,
+    "continuous_peak": 0.4324065799665943,
+    "gamma": 0.5700229862715289,
+    "grid_peak": 0.5,
+    "q0": 2.5
+  },
+  "max_between_training_sd": 0.1585905569266857,
+  "mean_between_training_sd": 0.0633790684346806,
+  "n_assays": 8820,
+  "n_states": 420,
+  "plan_sha256": "f7cac63263d5e59883e45156f4a99e366f5e7db14fced54a2963552086fb28c1",
+  "primary_pooled": {
+    "R2": 0.8023094378883218,
+    "RMSE": 0.14200813623164138,
+    "n": 105,
+    "q_train": NaN,
+    "scope": "pooled_primary"
+  },
+  "primary_training_strengths": [
+    1.5,
+    2.5,
+    3.0,
+    3.5,
+    4.0
+  ],
+  "probe_grid": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0,
+    2.25,
+    2.5,
+    2.75,
+    3.0,
+    3.25,
+    3.5,
+    3.75,
+    4.0,
+    4.25,
+    4.5,
+    4.75,
+    5.0
+  ],
+  "secondary_refit": {
+    "free_susceptibility": {
+      "R2": 0.9951216971948388,
+      "RMSE": 0.021767358192527494,
+      "c": -0.8012695026625957,
+      "gamma": 0.6825689157835679,
+      "peak_continuous": 1.17390271390071
+    },
+    "linear": {
+      "R2": 0.8677003966861846,
+      "RMSE": 0.11335759353650357
+    },
+    "quadratic": {
+      "R2": 0.9837106810134986,
+      "RMSE": 0.03977615604225536
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "campaign": "CATALYTIC_COMPLEX_FIDELITY_CONFIRMATORY_REPLICATION_v1.0.0",
+  "affinity_seed": 51073,
+  "population_size": 48,
+  "dimers_per_cell": 32,
+  "generations": 180,
+  "mutation_probability": 0.01,
+  "selection_coefficient": 24.0,
+  "michaelis_K": 1.0,
+  "scaffold_strength": 2.0,
+  "n_blocks": 30,
+  "fidelities": [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.75,0.8,0.825,0.85,0.875,0.9,0.925,0.95,0.975,1.0],
+  "bootstrap_reps": 20000,
+  "bootstrap_seed": 5192026
+}

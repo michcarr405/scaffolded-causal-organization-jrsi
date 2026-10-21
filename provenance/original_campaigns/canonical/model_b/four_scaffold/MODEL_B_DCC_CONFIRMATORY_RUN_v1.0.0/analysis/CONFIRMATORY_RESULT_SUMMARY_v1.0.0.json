@@ -1,0 +1,79 @@
+{
+  "A_core": {
+    "ci95_high": 0.005116293267841216,
+    "ci95_low": 0.004256931888971438,
+    "mean_D0": 0.004679253925461036,
+    "nonpositive_blocks": 0,
+    "pass": true,
+    "positive_blocks": 30,
+    "scaffold_id": "SCF0",
+    "sign_p_raw": 9.313225746154785e-10
+  },
+  "B1_strong": true,
+  "B2_strong": true,
+  "C_strong": true,
+  "N3_A0_95": {
+    "ci": 0.95,
+    "high": 0.005121718910001255,
+    "low": 0.004255861041477124,
+    "mean": 0.0046835641879405115,
+    "median": 0.004543926485836141,
+    "n": 30,
+    "n_boot": 50000
+  },
+  "analysis_root_seed": 145617781,
+  "applicable_narrow_branches": [],
+  "claim_boundary": "No full Walker-Davies reversal, top-down dominance, autonomous agency, or scaffold endogenization claim.",
+  "classification": "STRONG_PROSPECTIVE_SUPPORT",
+  "n_blocks_per_scaffold": {
+    "SCF0": 30,
+    "SCF1": 30,
+    "SCF2": 30,
+    "SCF3": 30
+  },
+  "n_boot": 50000,
+  "n_paired_blocks": 120,
+  "overall_strong_support": true,
+  "pooled_95": {
+    "A_unitshuffle": {
+      "ci": 0.95,
+      "high": 0.004419772195990226,
+      "low": 0.003962781822410759,
+      "mean": 0.0041906337296363436,
+      "n_boot": 50000,
+      "n_strata": 4
+    },
+    "D_primary": {
+      "ci": 0.95,
+      "high": 0.004420395801052028,
+      "low": 0.003961266544366771,
+      "mean": 0.0041886448856250395,
+      "n_boot": 50000,
+      "n_strata": 4
+    },
+    "H_historical_match": {
+      "ci": 0.95,
+      "high": 12.273177587890626,
+      "low": 11.55406436021593,
+      "mean": 11.909226453993057,
+      "n_boot": 50000,
+      "n_strata": 4
+    }
+  },
+  "production_completeness": "PASS_120_pairs_240_runs",
+  "secondary_canonical_native_reversed": {
+    "ci": 0.95,
+    "high": 14.024199153645833,
+    "low": 12.646706909179688,
+    "mean": 13.333805989583336,
+    "median": 13.399326171875,
+    "n": 30,
+    "n_boot": 50000,
+    "sign_n": 30,
+    "sign_nonpositive": 0,
+    "sign_p_value": 9.313225746154785e-10,
+    "sign_positive": 30
+  },
+  "validation_gate": "PASS_56_of_56",
+  "version": "v1.0.0"
+}

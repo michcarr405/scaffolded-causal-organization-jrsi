@@ -1,0 +1,26 @@
+{
+  "C_down_primary_g250": 0.0005050087187668463,
+  "C_down_unitshuffle_g250": 0.0005089971456523367,
+  "C_down_unitshuffle_sd": 2.5575119798321994e-05,
+  "ancestor_hash": "7701c0e835270cb2867ca9d0806d2c9811beb29ffde19edeac9f324ae85fc8cf",
+  "base_seed_uint32": 1734665715,
+  "cross_eval_mapping_means": {
+    "SCF0": 1.4866894531249986,
+    "SCF1": 4.4801953125,
+    "SCF2": 1.728144531249999,
+    "SCF3": 5.783046875
+  },
+  "final_hash": "c254b8b06679d8375873de646e74d4a08816b44a9cf783172da9b1aad60d5907",
+  "historical_match_H": 3.218037109375001,
+  "mode": "neutral",
+  "paired_block_id": "SCF3_B23",
+  "run_id": "SCF3_B23_NEUTRAL",
+  "scaffold_id": "SCF3",
+  "scaffold_mapping": [
+    3,
+    2,
+    1,
+    0
+  ],
+  "validation_version": "v1.0.0"
+}

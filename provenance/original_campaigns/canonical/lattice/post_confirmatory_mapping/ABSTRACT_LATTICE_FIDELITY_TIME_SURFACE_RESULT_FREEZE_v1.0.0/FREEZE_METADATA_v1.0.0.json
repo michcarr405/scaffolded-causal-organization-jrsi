@@ -1,0 +1,14 @@
+{
+  "freeze_name": "ABSTRACT_LATTICE_FIDELITY_TIME_SURFACE_RESULT_FREEZE_v1.0.0",
+  "classification": "FROZEN POST-CONFIRMATORY MECHANISTIC MAPPING RESULT",
+  "source_campaign": "ABSTRACT_LATTICE_FIDELITY_TIME_SURFACE_DIAGNOSTIC_v1.0.0",
+  "prior_confirmatory_campaign": "ABSTRACT_LATTICE_CONFIRMATORY_v1.0.0",
+  "evidence_sequence": ["discovery", "prospective confirmation", "independent post-confirmatory mechanistic mapping"],
+  "mapping_blocks": 30,
+  "fidelity_points": 41,
+  "dense_generations": 50,
+  "sentinel_generations": 200,
+  "preoutcome_code_hashed": true,
+  "confirmatory_seed_overlap": 0,
+  "canonical_rule": "New data supersede old estimates where resolution improved; they do not supersede the old confirmation."
+}

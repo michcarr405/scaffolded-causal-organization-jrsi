@@ -1,0 +1,21 @@
+{
+  "campaign": "CATALYTIC_COMPLEX_HISTORY_SPECIFICITY_CONFIRMATORY_v1.0.0",
+  "matrix_seed": 51073,
+  "n_monomers": 4,
+  "n_dimers_per_cell": 32,
+  "population_size": 48,
+  "generations": 180,
+  "mutation_probability": 0.01,
+  "transmission_fidelity": 0.975,
+  "selection_coefficient": 24.0,
+  "michaelis_K": 1.0,
+  "scaffold_strength": 2.0,
+  "history_1": [0.7071067811865475, -0.7071067811865475, 0.0, 0.0],
+  "history_2": [0.4082482904638631, 0.4082482904638631, -0.8164965809277261, 0.0],
+  "n_blocks": 30,
+  "root_seed_start": 9300000,
+  "bootstrap_resamples": 100000,
+  "bootstrap_seed": 93510,
+  "primary_positive_block_threshold": 24,
+  "primary_ci_level": 0.99
+}

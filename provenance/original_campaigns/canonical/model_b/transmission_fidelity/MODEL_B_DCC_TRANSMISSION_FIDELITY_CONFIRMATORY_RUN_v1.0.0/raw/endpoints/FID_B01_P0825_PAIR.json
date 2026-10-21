@@ -1,0 +1,18 @@
+{
+  "C_neutral": 1.6955775404199267e-05,
+  "C_selected": 3.8227376076398266e-05,
+  "DeltaC_down": 2.1271600672199e-05,
+  "DeltaF": 1.1890624999999986,
+  "DeltaR": 0.9143554687500028,
+  "F0": 17.06640625,
+  "F250_neutral": 17.4328125,
+  "F250_selected": 18.621875,
+  "R_neutral": 0.234130859375,
+  "R_selected": 1.1484863281250028,
+  "ancestor_hash": "1e1126f467463e0aff3d6e37c64cfe9525cc46eea9a65d008073665e857aa51b",
+  "base_seed_uint32": 2962864714,
+  "block_id": "FID_B01",
+  "p_id": "P0825",
+  "p_inherit": 0.825,
+  "validation_version": "v1.0.0"
+}

@@ -1,0 +1,2 @@
+block_id,p_id,p_inherit,base_seed_uint32,ancestor_hash,validation_version,run_id,mode,F0,F250,C_down_g250,native_g250,reversed_g250,R_g250,population_hash_g250
+FID_B20,P0400,0.4,1886949221,82e6e2fa7b8c1b4461560d1af7df4eb5cfcdd98663ecee9c894793ffed6d966f,v1.0.0,FID_B20_P0400_NEUTRAL,neutral,17.15625,17.69375,1.0954998307025171e-05,17.36123046875,17.289404296875,0.07182617187500284,d48c259758af8d60eb9c695b8960ecfbe205c7332a442119d90a59ee721a31c8

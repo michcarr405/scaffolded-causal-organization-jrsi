@@ -1,0 +1,23 @@
+plan_version,ratio_id,beta_over_theta,theta,beta,grid_status,condition_role,historical_scaffold_mapping,fixed_probe_beta,fixed_probe_beta_over_theta,reversed_probe_mapping,primary_figure_included
+v1.0.0,R0P0,0.0,1.2,0.0,exact original 22-point exploratory+extension grid coordinate,no-scaffold baseline,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R0P25,0.25,1.2,0.3,exact original 22-point exploratory+extension grid coordinate,dense descriptive confirmatory point,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R0P5,0.5,1.2,0.6,exact original 22-point exploratory+extension grid coordinate,dense descriptive confirmatory point,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R0P75,0.75,1.2,0.9,exact original 22-point exploratory+extension grid coordinate,dense descriptive confirmatory point,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R1P0,1.0,1.2,1.2,exact original 22-point exploratory+extension grid coordinate,dense descriptive confirmatory point,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R1P25,1.25,1.2,1.5,exact original 22-point exploratory+extension grid coordinate,dense descriptive confirmatory point,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R1P5,1.5,1.2,1.8,exact original 22-point exploratory+extension grid coordinate,low anchor inherited from first confirmatory campaign,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R1P666667,1.666667,1.2,2.0,exact original 22-point exploratory+extension grid coordinate,dense descriptive confirmatory point,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R2P0,2.0,1.2,2.4,exact original 22-point exploratory+extension grid coordinate,dense descriptive confirmatory point,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R2P25,2.25,1.2,2.7,exact original 22-point exploratory+extension grid coordinate,dense descriptive confirmatory point,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R2P5,2.5,1.2,3.0,exact original 22-point exploratory+extension grid coordinate,intermediate / fixed-probe-equivalent anchor,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R2P75,2.75,1.2,3.3,exact original 22-point exploratory+extension grid coordinate,dense descriptive confirmatory point,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R3P0,3.0,1.2,3.6,exact original 22-point exploratory+extension grid coordinate,strong viable anchor,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R3P333333,3.333333,1.2,4.0,exact original 22-point exploratory+extension grid coordinate,dense descriptive confirmatory point,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R3P5,3.5,1.2,4.2,exact original 22-point exploratory+extension grid coordinate,high transition anchor,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R3P75,3.75,1.2,4.5,exact original 22-point exploratory+extension grid coordinate,dense descriptive confirmatory point,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R4P0,4.0,1.2,4.8,exact original 22-point exploratory+extension grid coordinate,pre-collapse latent-organization anchor,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R4P25,4.25,1.2,5.1,exact original 22-point exploratory+extension grid coordinate,dense descriptive confirmatory point,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R4P5,4.5,1.2,5.4,exact original 22-point exploratory+extension grid coordinate,fitness-floor/collapse anchor,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R5P0,5.0,1.2,6.0,exact original 22-point exploratory+extension grid coordinate,dense descriptive confirmatory point,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R6P0,6.0,1.2,7.2,exact original 22-point exploratory+extension grid coordinate,dense descriptive confirmatory point,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R8P0,8.0,1.2,9.6,exact original 22-point exploratory+extension grid coordinate,dense descriptive confirmatory point,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True

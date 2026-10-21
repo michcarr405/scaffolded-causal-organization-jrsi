@@ -1,0 +1,64 @@
+{
+  "classification": "STRONG PROSPECTIVE SUPPORT",
+  "overall_pass": true,
+  "anisotropy_profile_r": 0.9999556279736707,
+  "profile_pass": true,
+  "contrasts": [
+    {
+      "contrast": "C1",
+      "mean": 0.008540794526970675,
+      "median": 0.007960265924706372,
+      "ci99_low": 0.007343509649851064,
+      "ci99_high": 0.00976736801254456,
+      "positive_blocks": 30,
+      "sign_p_raw": 9.313225746154785e-10,
+      "sign_p_holm": 4.6566128730773926e-09,
+      "pass": true
+    },
+    {
+      "contrast": "C2",
+      "mean": 0.1440847017718711,
+      "median": 0.1447576865142211,
+      "ci99_low": 0.14144563023236442,
+      "ci99_high": 0.14665552275276109,
+      "positive_blocks": 30,
+      "sign_p_raw": 9.313225746154785e-10,
+      "sign_p_holm": 4.6566128730773926e-09,
+      "pass": true
+    },
+    {
+      "contrast": "C3",
+      "mean": 0.17188971152143623,
+      "median": 0.1743888435442496,
+      "ci99_low": 0.16718393618918934,
+      "ci99_high": 0.17658665617300967,
+      "positive_blocks": 30,
+      "sign_p_raw": 9.313225746154785e-10,
+      "sign_p_holm": 4.6566128730773926e-09,
+      "pass": true
+    },
+    {
+      "contrast": "C4",
+      "mean": 0.10597440992918009,
+      "median": 0.10619945624804826,
+      "ci99_low": 0.10290755771610484,
+      "ci99_high": 0.10892075709715256,
+      "positive_blocks": 30,
+      "sign_p_raw": 9.313225746154785e-10,
+      "sign_p_holm": 4.6566128730773926e-09,
+      "pass": true
+    },
+    {
+      "contrast": "C5",
+      "mean": 0.15742682933966376,
+      "median": 0.15807249406754004,
+      "ci99_low": 0.1536906703228492,
+      "ci99_high": 0.16105461076256603,
+      "positive_blocks": 30,
+      "sign_p_raw": 9.313225746154785e-10,
+      "sign_p_holm": 4.6566128730773926e-09,
+      "pass": true
+    }
+  ],
+  "n_blocks": 30
+}

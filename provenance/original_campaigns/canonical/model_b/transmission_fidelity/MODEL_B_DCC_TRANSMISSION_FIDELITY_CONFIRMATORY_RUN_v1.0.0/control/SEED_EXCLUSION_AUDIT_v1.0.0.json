@@ -1,0 +1,277 @@
+{
+  "plan_version": "v1.0.0",
+  "prior_seed_scan_sources": [
+    {
+      "path": "/mnt/data/MODEL_B_DCC_CONFIRMATORY_PLAN_v1.0.0/PAIRED_BLOCK_MANIFEST_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32"
+      ],
+      "integer_values_seen": 120,
+      "unique_in_file": 120
+    },
+    {
+      "path": "/mnt/data/MODEL_B_DCC_CONFIRMATORY_PLAN_v1.0.0/RUN_MANIFEST_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32",
+        "affinity_seed"
+      ],
+      "integer_values_seen": 480,
+      "unique_in_file": 121
+    },
+    {
+      "path": "/mnt/data/MODEL_B_DCC_CONFIRMATORY_PLAN_v1.0.0/SEED_LEDGER_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32",
+        "seed_derivation_tag",
+        "selected_neutral_share_base_seed",
+        "seed_reused_across_scaffolds",
+        "excluded_exploratory_seed_overlap"
+      ],
+      "integer_values_seen": 480,
+      "unique_in_file": 122
+    },
+    {
+      "path": "/mnt/data/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/control/PAIRED_BLOCK_MANIFEST_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32"
+      ],
+      "integer_values_seen": 120,
+      "unique_in_file": 120
+    },
+    {
+      "path": "/mnt/data/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/control/RUN_MANIFEST_AUTHORIZED_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32",
+        "affinity_seed"
+      ],
+      "integer_values_seen": 480,
+      "unique_in_file": 121
+    },
+    {
+      "path": "/mnt/data/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/control/RUN_MANIFEST_FROZEN_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32",
+        "affinity_seed"
+      ],
+      "integer_values_seen": 480,
+      "unique_in_file": 121
+    },
+    {
+      "path": "/mnt/data/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/control/SEED_LEDGER_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32",
+        "seed_derivation_tag",
+        "selected_neutral_share_base_seed",
+        "seed_reused_across_scaffolds",
+        "excluded_exploratory_seed_overlap"
+      ],
+      "integer_values_seen": 480,
+      "unique_in_file": 122
+    },
+    {
+      "path": "/mnt/data/MODEL_B_DCC_SCAFFOLD_STRENGTH_CONFIRMATORY_PLAN_v1.0.0/BLOCK_MANIFEST_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32",
+        "seed_derivation_tag",
+        "seed_shared_across_ratios_within_block",
+        "selected_neutral_share_base_seed",
+        "excluded_prior_seed_overlap"
+      ],
+      "integer_values_seen": 120,
+      "unique_in_file": 32
+    },
+    {
+      "path": "/mnt/data/MODEL_B_DCC_SCAFFOLD_STRENGTH_CONFIRMATORY_PLAN_v1.0.0/RUN_MANIFEST_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32",
+        "affinity_seed"
+      ],
+      "integer_values_seen": 840,
+      "unique_in_file": 31
+    },
+    {
+      "path": "/mnt/data/MODEL_B_DCC_SCAFFOLD_STRENGTH_CONFIRMATORY_PLAN_v1.0.0/SEED_LEDGER_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32",
+        "seed_derivation_tag",
+        "seed_shared_across_ratios_within_block",
+        "selected_neutral_share_base_seed",
+        "excluded_prior_seed_overlap"
+      ],
+      "integer_values_seen": 120,
+      "unique_in_file": 32
+    },
+    {
+      "path": "/mnt/data/MODEL_B_DCC_SCAFFOLD_STRENGTH_CONFIRMATORY_RUN_v1.0.0/control/BLOCK_MANIFEST_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32",
+        "seed_derivation_tag",
+        "seed_shared_across_ratios_within_block",
+        "selected_neutral_share_base_seed",
+        "excluded_prior_seed_overlap"
+      ],
+      "integer_values_seen": 120,
+      "unique_in_file": 32
+    },
+    {
+      "path": "/mnt/data/MODEL_B_DCC_SCAFFOLD_STRENGTH_CONFIRMATORY_RUN_v1.0.0/control/RUN_MANIFEST_AUTHORIZED_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32",
+        "affinity_seed"
+      ],
+      "integer_values_seen": 840,
+      "unique_in_file": 31
+    },
+    {
+      "path": "/mnt/data/MODEL_B_DCC_SCAFFOLD_STRENGTH_CONFIRMATORY_RUN_v1.0.0/control/RUN_MANIFEST_FROZEN_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32",
+        "affinity_seed"
+      ],
+      "integer_values_seen": 840,
+      "unique_in_file": 31
+    },
+    {
+      "path": "/mnt/data/MODEL_B_DCC_SCAFFOLD_STRENGTH_CONFIRMATORY_RUN_v1.0.0/control/RUN_MANIFEST_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32",
+        "affinity_seed"
+      ],
+      "integer_values_seen": 840,
+      "unique_in_file": 31
+    },
+    {
+      "path": "/mnt/data/MODEL_B_DCC_SCAFFOLD_STRENGTH_CONFIRMATORY_RUN_v1.0.0/control/SEED_LEDGER_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32",
+        "seed_derivation_tag",
+        "seed_shared_across_ratios_within_block",
+        "selected_neutral_share_base_seed",
+        "excluded_prior_seed_overlap"
+      ],
+      "integer_values_seen": 120,
+      "unique_in_file": 32
+    },
+    {
+      "path": "/mnt/data/dcc_exploratory_extract/modelb_ratio_sweep_exploratory/seed_ledger.csv",
+      "seed_columns": [
+        "seed"
+      ],
+      "integer_values_seen": 20,
+      "unique_in_file": 20
+    },
+    {
+      "path": "/mnt/data/dcc_exploratory_extract/modelb_ratio_sweep_extension_v2/seed_ledger.csv",
+      "seed_columns": [
+        "seed"
+      ],
+      "integer_values_seen": 20,
+      "unique_in_file": 20
+    },
+    {
+      "path": "/mnt/data/prev_confirm_full/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/control/PAIRED_BLOCK_MANIFEST_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32"
+      ],
+      "integer_values_seen": 120,
+      "unique_in_file": 120
+    },
+    {
+      "path": "/mnt/data/prev_confirm_full/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/control/RUN_MANIFEST_AUTHORIZED_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32",
+        "affinity_seed"
+      ],
+      "integer_values_seen": 480,
+      "unique_in_file": 121
+    },
+    {
+      "path": "/mnt/data/prev_confirm_full/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/control/RUN_MANIFEST_FROZEN_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32",
+        "affinity_seed"
+      ],
+      "integer_values_seen": 480,
+      "unique_in_file": 121
+    },
+    {
+      "path": "/mnt/data/prev_confirm_full/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/control/SEED_LEDGER_v1.0.0.csv",
+      "seed_columns": [
+        "base_seed_uint32",
+        "seed_derivation_tag",
+        "selected_neutral_share_base_seed",
+        "seed_reused_across_scaffolds",
+        "excluded_exploratory_seed_overlap"
+      ],
+      "integer_values_seen": 480,
+      "unique_in_file": 122
+    },
+    {
+      "path": "/mnt/data/ratio_exp/modelb_ratio_sweep_exploratory/seed_ledger.csv",
+      "seed_columns": [
+        "seed"
+      ],
+      "integer_values_seen": 20,
+      "unique_in_file": 20
+    },
+    {
+      "path": "/mnt/data/ratio_expl_full/modelb_ratio_sweep_exploratory/seed_ledger.csv",
+      "seed_columns": [
+        "seed"
+      ],
+      "integer_values_seen": 20,
+      "unique_in_file": 20
+    },
+    {
+      "path": "/mnt/data/ratio_ext_code/modelb_ratio_sweep_extension_v2/seed_ledger.csv",
+      "seed_columns": [
+        "seed"
+      ],
+      "integer_values_seen": 20,
+      "unique_in_file": 20
+    },
+    {
+      "path": "/mnt/data/ratio_ext_v2/modelb_ratio_sweep_extension_v2/seed_ledger.csv",
+      "seed_columns": [
+        "seed"
+      ],
+      "integer_values_seen": 20,
+      "unique_in_file": 20
+    }
+  ],
+  "prior_unique_uint32_seed_values": 173,
+  "new_seed_count": 30,
+  "overlap_count": 0,
+  "new_seed_values": [
+    408364518,
+    829342725,
+    908186931,
+    916762653,
+    1072264613,
+    1166349587,
+    1239891862,
+    1468385088,
+    1539361827,
+    1570698810,
+    1613711760,
+    1689124035,
+    1753288978,
+    1886949221,
+    2039566004,
+    2164604552,
+    2297055061,
+    2414449043,
+    2428710880,
+    2470968404,
+    2699885567,
+    2962864714,
+    3103821393,
+    3318018873,
+    3319916561,
+    3529012666,
+    3679292978,
+    3688771140,
+    4241304085,
+    4274804491
+  ]
+}

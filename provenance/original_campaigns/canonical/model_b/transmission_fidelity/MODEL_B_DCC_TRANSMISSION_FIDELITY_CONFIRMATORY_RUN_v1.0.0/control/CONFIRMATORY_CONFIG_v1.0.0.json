@@ -1,0 +1,53 @@
+{
+  "plan_version": "v1.0.0",
+  "status": "DESIGN_FROZEN_VALIDATION_REQUIRED_PRODUCTION_NOT_AUTHORIZED",
+  "project": "Evolutionary appropriation of physical regularity generates downward causal constraint in a pre-genetic model",
+  "scientific_commit": "2c7d78694579755402c0a1896e109b29dec4d6a0",
+  "theta": 1.2,
+  "beta": 3.0,
+  "beta_over_theta": 2.5,
+  "p_values": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.75,
+    0.8,
+    0.825,
+    0.85,
+    0.875,
+    0.9,
+    0.925,
+    0.95,
+    0.975,
+    1.0
+  ],
+  "n_root_blocks": 30,
+  "modes": [
+    "selected",
+    "neutral"
+  ],
+  "n_evolutionary_runs": 1080,
+  "generations": 250,
+  "historical_scaffold_mapping": [
+    2,
+    0,
+    3,
+    1
+  ],
+  "reversed_probe_mapping": [
+    1,
+    3,
+    0,
+    2
+  ],
+  "specificity_crn_draws": 16,
+  "bootstrap_replicates": 50000,
+  "bootstrap_root_seed": 2481907731,
+  "inference": "root-block bootstrap + exact one-sided sign test + Holm within family",
+  "production_authorized": false
+}

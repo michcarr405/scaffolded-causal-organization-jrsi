@@ -1,0 +1,11 @@
+{
+  "expected_ratio_pairs": 660,
+  "expected_runs": 1320,
+  "metrics_files": 1320,
+  "missing": [],
+  "pair_endpoint_files": 660,
+  "run_endpoint_files": 1320,
+  "runtime_seconds": 303.7289791107178,
+  "state_files": 1320,
+  "status": "PASS"
+}

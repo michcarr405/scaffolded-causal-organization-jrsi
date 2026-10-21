@@ -1,0 +1,23 @@
+{
+  "C_down_probe_beta3_g250": 0.0002845779347420449,
+  "C_down_train_g250": 0.0002845779347420449,
+  "F0": 17.05703125,
+  "F250": 16.59140625,
+  "G": -0.46562500000000284,
+  "R_probe_beta3_g250": -0.9024902343750014,
+  "R_train_g250": -0.5532226562499929,
+  "ancestor_hash": "f8c4926ed02604e4a284ad9084e0823586a1f55de8398c7dd0fc33e6749405cd",
+  "base_seed_uint32": 1716901741,
+  "beta": 3.0,
+  "beta_over_theta": 2.5,
+  "block_id": "STR_B19",
+  "final_hash": "af5900edd8ade88127131711c8482eaf957a0d5a782ba410f5820d06b91c2046",
+  "mode": "neutral",
+  "native_probe3": 16.4697265625,
+  "native_train": 16.536181640625003,
+  "ratio_id": "R2P5",
+  "reversed_probe3": 17.372216796875,
+  "reversed_train": 17.089404296874996,
+  "run_id": "STR_B19_R2P5_NEUTRAL",
+  "validation_version": "v1.0.0"
+}

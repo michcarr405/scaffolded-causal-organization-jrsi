@@ -1,0 +1,7 @@
+# Fidelity-shape interpretation note
+
+The three candidate shape models were prespecified in the post-confirmatory mapping plan. The four-parameter logistic had the lowest AICc on the 41-point mean `A50` curve and was the best model in all 1000 root-block bootstrap resamples. However, its fitted midpoint parameter `p50` hit the upper physical boundary (`p=1`) and its implied `p90` lies outside the allowed fidelity domain. Therefore the asymptotic logistic `p50/p90` parameters are **not identified within the observed domain and should not be interpreted as a critical fidelity or as a measured saturation point**.
+
+The raw curve is the scientifically important result: stable relational causal value rises smoothly and strongly across the full 0–1 fidelity domain and has not visibly saturated by `p=1`. A hard-step model is strongly disfavored relative to the smooth logistic among the prespecified candidates (`Delta AICc ~198.5` on the mean curve), while the segmented model is also substantially worse (`Delta AICc ~44.7`). This supports a smooth fidelity-dependent storage/amplification interpretation rather than an abrupt observed threshold.
+
+For an assumption-light descriptive summary, `observed_range_fidelity_landmarks.csv` reports the fidelities at which the monotone envelope of the empirical `A50` curve reaches 10%, 50%, and 90% of its **observed** range. These are not critical points and are not extrapolations to an unobserved asymptote.

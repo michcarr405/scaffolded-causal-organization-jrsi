@@ -1,0 +1,18 @@
+{
+  "preoutcome_hashes_verify": true,
+  "dense_rows_expected": true,
+  "dense_blocks_30": true,
+  "dense_41_p_each_block": true,
+  "dense_51_t_each_block_p": true,
+  "site_rows_expected": true,
+  "sentinel_rows_expected": true,
+  "history_cross_eval_rows_expected": true,
+  "history_summary_rows_expected": true,
+  "expression_rows_expected": true,
+  "anisotropy_rows_expected": true,
+  "state_files_30": true,
+  "finite_primary_surface": true,
+  "sentinel_all_close": true,
+  "state_shapes_correct": true,
+  "state_decoder_binary_shape": true
+}

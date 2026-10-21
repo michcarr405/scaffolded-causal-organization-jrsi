@@ -1,0 +1,8 @@
+plan_version,ratio_id,beta_over_theta,theta,beta,condition_role,historical_scaffold_mapping,fixed_probe_beta,fixed_probe_beta_over_theta,reversed_probe_mapping,primary_figure_included
+v1.0.0,R0P0,0.0,1.2,0.0,no-scaffold baseline,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R1P5,1.5,1.2,1.7999999999999998,low-strength anchor,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R2P5,2.5,1.2,3.0,intermediate anchor; identical to fixed-probe beta=3 condition,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R3P0,3.0,1.2,3.5999999999999996,strong viable anchor,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R3P5,3.5,1.2,4.2,high-strength transition anchor,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R4P0,4.0,1.2,4.8,pre-collapse latent-organization anchor,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True
+v1.0.0,R4P5,4.5,1.2,5.3999999999999995,fitness-floor/collapse anchor,"[2,0,3,1]",3.0,2.5,"[1,3,0,2]",True

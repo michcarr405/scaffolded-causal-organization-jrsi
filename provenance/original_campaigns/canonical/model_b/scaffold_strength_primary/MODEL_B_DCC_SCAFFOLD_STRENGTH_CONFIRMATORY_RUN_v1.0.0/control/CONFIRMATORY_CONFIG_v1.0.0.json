@@ -1,0 +1,106 @@
+{
+  "plan_version": "v1.0.0",
+  "project": "Evolutionary appropriation of physical regularity generates downward causal constraint in a pre-genetic model",
+  "scientific_commit": "2c7d78694579755402c0a1896e109b29dec4d6a0",
+  "status": "DESIGN FROZEN; VALIDATION REQUIRED; PRODUCTION NOT AUTHORIZED",
+  "canonical_model": {
+    "N": 80,
+    "n_olig": 8,
+    "L": 60,
+    "alphabet_size": 4,
+    "k": 5,
+    "n_local_states": 4,
+    "n_segments": 4,
+    "scaffold_mapping": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "theta": 1.2,
+    "p_inherit": 0.975,
+    "mutation_rate": 0.001,
+    "reward": 2.0,
+    "penalty": 0.5,
+    "fitness_floor": 0.1,
+    "affinity_seed": 123,
+    "generations": 250
+  },
+  "strength_grid": [
+    {
+      "ratio_id": "R0P0",
+      "beta_over_theta": 0.0,
+      "beta": 0.0
+    },
+    {
+      "ratio_id": "R1P5",
+      "beta_over_theta": 1.5,
+      "beta": 1.7999999999999998
+    },
+    {
+      "ratio_id": "R2P5",
+      "beta_over_theta": 2.5,
+      "beta": 3.0
+    },
+    {
+      "ratio_id": "R3P0",
+      "beta_over_theta": 3.0,
+      "beta": 3.5999999999999996
+    },
+    {
+      "ratio_id": "R3P5",
+      "beta_over_theta": 3.5,
+      "beta": 4.2
+    },
+    {
+      "ratio_id": "R4P0",
+      "beta_over_theta": 4.0,
+      "beta": 4.8
+    },
+    {
+      "ratio_id": "R4P5",
+      "beta_over_theta": 4.5,
+      "beta": 5.3999999999999995
+    }
+  ],
+  "fixed_probe": {
+    "beta": 3.0,
+    "beta_over_theta": 2.5,
+    "reversed_mapping": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "specificity_crn_draws": 16
+  },
+  "design": {
+    "n_root_seed_blocks": 30,
+    "runs_per_block": 14,
+    "total_runs": 420,
+    "selected_neutral_pairing": true,
+    "ratios_repeated_within_block": true
+  },
+  "inference": {
+    "bootstrap_replicates": 50000,
+    "bootstrap_seed_uint32": 151092729,
+    "bootstrap_seed_tag": "MODEL_B_DCC_STRENGTH_CONFIRM|v1.0.0|analysis-bootstrap-root",
+    "resample_unit": "root seed block",
+    "sign_test": "one-sided exact",
+    "multiplicity": "Holm within prespecified families"
+  },
+  "checkpoints": [
+    0,
+    25,
+    50,
+    75,
+    100,
+    125,
+    150,
+    175,
+    200,
+    225,
+    250
+  ],
+  "production_authorized": false
+}

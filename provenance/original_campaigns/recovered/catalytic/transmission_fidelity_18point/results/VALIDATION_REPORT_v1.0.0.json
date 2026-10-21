@@ -1,0 +1,12 @@
+{
+  "n_rows_540": true,
+  "n_blocks_30": true,
+  "all_18_p_each_block": true,
+  "all_grid_values_present": true,
+  "seed_ledger_exact_match": true,
+  "shared_founder_within_block": true,
+  "selected_seed_unique": true,
+  "neutral_seed_unique": true,
+  "selected_neutral_seed_disjoint": true,
+  "finite_primary_endpoints": true
+}

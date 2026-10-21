@@ -1,0 +1,5 @@
+{
+  "validation_version": "v1.0.0",
+  "gate": "FAIL",
+  "error": "AssertionError('F: Bootstrap RNG deterministic and purpose-separated: None')"
+}

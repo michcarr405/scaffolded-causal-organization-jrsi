@@ -1,0 +1,7 @@
+family,contrast_id,direction,definition,promotion_gate
+founder_cost,F1,negative,F0(2)-F0(0),yes
+founder_cost,F2,negative,mean_H_F0-mean_L_F0; L={0,.25,.5,.75,1}; H={3,3.333333,3.5,3.75,4},yes
+recovery,R1,positive,DREC(2)=FS(2)-FN(2),yes
+recovery,R2,positive,mean_M_DS; M={1,1.25,1.5,1.666667,2,2.25,2.5,2.75,3,3.333333,3.5,3.75,4},yes
+recovery,R3,positive,mean_M_DREC; same M,yes
+secondary_shape,S1,positive,mean_P_DS-mean_Q_DS; P={2.75,3,3.333333,3.5,3.75,4}; Q={0,.25,.5,.75,1,5,6,8},no

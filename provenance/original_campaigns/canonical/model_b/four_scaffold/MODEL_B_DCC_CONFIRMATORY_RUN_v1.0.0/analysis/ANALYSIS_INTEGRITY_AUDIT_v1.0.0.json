@@ -1,0 +1,11 @@
+{
+  "ancestor_pairing_checked": true,
+  "checkpoint_metric_files_checked": 240,
+  "checkpoint_rows_checked": 2640,
+  "generation_250_endpoint_metric_consistency_checked": true,
+  "historical_H_recomputation_checked": true,
+  "pair_delta_recomputation_checked": true,
+  "paired_blocks_checked": 120,
+  "run_endpoints_checked": 240,
+  "status": "PASS"
+}

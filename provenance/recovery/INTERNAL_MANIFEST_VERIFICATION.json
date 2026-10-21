@@ -1,0 +1,50 @@
+[
+  {
+    "entries": 33,
+    "checked": 33,
+    "missing": [],
+    "mismatch": [],
+    "name": "catalytic_22",
+    "manifest": "/mnt/data/missing_recovery_unpacked/CATALYTIC_COMPLEX_SCAFFOLD_STRENGTH_CONFIRMATORY_v1.0.0/CATALYTIC_COMPLEX_SCAFFOLD_STRENGTH_CONFIRMATORY_v1.0.0/SHA256_MANIFEST_FINAL_v1.0.0.csv"
+  },
+  {
+    "entries": 21,
+    "checked": 21,
+    "missing": [],
+    "mismatch": [],
+    "name": "catalytic_fidelity_primary",
+    "manifest": "/mnt/data/missing_recovery_unpacked/CATALYTIC_COMPLEX_FIDELITY_CONFIRMATORY_v1.0.0/CATALYTIC_COMPLEX_FIDELITY_CONFIRMATORY_v1.0.0/SHA256_MANIFEST_v1.0.0.txt"
+  },
+  {
+    "entries": 29,
+    "checked": 29,
+    "missing": [],
+    "mismatch": [],
+    "name": "catalytic_fidelity_replication",
+    "manifest": "/mnt/data/missing_recovery_unpacked/CATALYTIC_COMPLEX_FIDELITY_CONFIRMATORY_REPLICATION_v1.0.0/CATALYTIC_COMPLEX_FIDELITY_CONFIRMATORY_REPLICATION_v1.0.0/SHA256_MANIFEST_FINAL_v1.0.0.csv"
+  },
+  {
+    "entries": 28,
+    "checked": 28,
+    "missing": [],
+    "mismatch": [],
+    "name": "lattice_original",
+    "manifest": "/mnt/data/missing_recovery_unpacked/ABSTRACT_LATTICE_CONFIRMATORY_v1.0.0/ABSTRACT_LATTICE_CONFIRMATORY_v1.0.0/SHA256_MANIFEST.txt"
+  },
+  {
+    "entries": 20,
+    "checked": 20,
+    "missing": [],
+    "mismatch": [],
+    "name": "catalytic_history",
+    "manifest": "/mnt/data/missing_recovery_unpacked/CATALYTIC_COMPLEX_HISTORY_SPECIFICITY_CONFIRMATORY_v1.0.0/CATALYTIC_COMPLEX_HISTORY_SPECIFICITY_CONFIRMATORY_v1.0.0/SHA256_MANIFEST_ALL.csv"
+  },
+  {
+    "entries": 4689,
+    "checked": 4689,
+    "missing": [],
+    "mismatch": [],
+    "name": "modelb_dense_22",
+    "manifest": "/mnt/data/missing_recovery_unpacked/MODEL_B_DCC_SCAFFOLD_STRENGTH_DENSE_CONFIRMATORY_RESULT_FREEZE_v1.0.0/MODEL_B_DCC_SCAFFOLD_STRENGTH_DENSE_CONFIRMATORY_RUN_v1.0.0/SHA256_MANIFEST_v1.0.0.csv"
+  }
+]

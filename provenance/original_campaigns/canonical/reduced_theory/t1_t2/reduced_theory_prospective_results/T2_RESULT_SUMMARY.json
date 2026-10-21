@@ -1,0 +1,67 @@
+{
+  "counts_by_hamming": {
+    "2": 6,
+    "3": 8,
+    "4": 9
+  },
+  "directional_k3_gt_k2": {
+    "mean_difference": 3.101595879448785,
+    "n": 30,
+    "one_sided_sign_p": 9.313225746154785e-10,
+    "positive_blocks": 30
+  },
+  "directional_k4_gt_k3": {
+    "mean_difference": 2.1695259467230903,
+    "n": 30,
+    "one_sided_sign_p": 9.313225746154785e-10,
+    "positive_blocks": 30
+  },
+  "mean_DeltaH_by_hamming": {
+    "2": 6.58244175889757,
+    "3": 9.684037638346355,
+    "4": 11.853563585069445
+  },
+  "n_alternative_mappings": 23,
+  "n_blocks": 30,
+  "n_probe_draws": 32,
+  "plan_sha256": "1c4b7af6f32f33d9cfdb261da36320923aa013e63680b7cf7222fdd50a45ea1a",
+  "ratio_k3_over_k2": {
+    "bootstrap95": [
+      1.4566164703746793,
+      1.4863377600275813
+    ],
+    "observed": 1.4711923011329826,
+    "theory": 1.5
+  },
+  "ratio_k4_over_k2": {
+    "bootstrap95": [
+      1.7752659431823354,
+      1.827424217161584
+    ],
+    "observed": 1.800785182648495,
+    "theory": 2.0
+  },
+  "shape_residual_k3_minus_1p5k2": {
+    "bootstrap95": [
+      -0.29019388885497854,
+      -0.0883283833821631
+    ],
+    "observed": -0.18962500000000126
+  },
+  "shape_residual_k4_minus_2k2": {
+    "bootstrap95": [
+      -1.5209180867513006,
+      -1.09564262785735
+    ],
+    "observed": -1.3113199327256986
+  },
+  "through_origin": {
+    "R2": 0.9579794621178332,
+    "lambda": 3.0907327852797235,
+    "predicted_means": [
+      6.181465570559447,
+      9.272198355839171,
+      12.362931141118894
+    ]
+  }
+}

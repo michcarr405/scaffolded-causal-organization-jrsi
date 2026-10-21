@@ -1,0 +1,8 @@
+contrast_id          family direction      mean  ci_coverage     ci_lo     ci_hi  direction_count  n   sign_p_raw  sign_p_holm  pass
+         F1    founder_cost  negative -0.113446      0.97500 -0.114071 -0.112819               30 30 9.313226e-10 1.862645e-09  True
+         F2    founder_cost  negative -0.264509      0.97500 -0.265053 -0.263949               30 30 9.313226e-10 1.862645e-09  True
+         R1        recovery  positive  0.055522      0.98333  0.047400  0.063771               30 30 9.313226e-10 2.793968e-09  True
+         R2        recovery  positive  0.037738      0.98333  0.037142  0.038363               30 30 9.313226e-10 2.793968e-09  True
+         R3        recovery  positive  0.055211      0.98333  0.053033  0.057473               30 30 9.313226e-10 2.793968e-09  True
+         S1 secondary_shape  positive  0.042970      0.95000  0.042411  0.043554               30 30 9.313226e-10 9.313226e-10  True
+STRONG_SUPPORT True

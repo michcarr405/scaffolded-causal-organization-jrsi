@@ -1,0 +1,15 @@
+{
+  "prior_seed_values_collected": 140,
+  "prior_seed_ledger_files_scanned": [
+    "/mnt/data/MODEL_B_DCC_CONFIRMATORY_PLAN_v1.0.0/SEED_LEDGER_v1.0.0.csv",
+    "/mnt/data/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/control/SEED_LEDGER_v1.0.0.csv",
+    "/mnt/data/dcc_exploratory_extract/modelb_ratio_sweep_exploratory/seed_ledger.csv",
+    "/mnt/data/dcc_exploratory_extract/modelb_ratio_sweep_extension_v2/seed_ledger.csv",
+    "/mnt/data/ratio_exp/modelb_ratio_sweep_exploratory/seed_ledger.csv",
+    "/mnt/data/ratio_ext_v2/modelb_ratio_sweep_extension_v2/seed_ledger.csv"
+  ],
+  "new_root_seed_count": 30,
+  "new_root_seed_unique_count": 30,
+  "overlap_count": 0,
+  "analysis_bootstrap_seed_uint32": 151092729
+}

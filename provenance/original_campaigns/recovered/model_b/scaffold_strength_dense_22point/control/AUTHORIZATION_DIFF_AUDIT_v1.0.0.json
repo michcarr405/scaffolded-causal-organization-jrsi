@@ -1,0 +1,8 @@
+{
+  "authorization_time": "2026-09-05",
+  "only_authorization_changed": true,
+  "rows_authorized": 1320,
+  "rows_frozen": 1320,
+  "scientific_columns_identical": true,
+  "validation_gate": "PASS 40/40"
+}

@@ -1,0 +1,122 @@
+{
+  "plan_version": "v1.0.0",
+  "status": "DESIGN_FROZEN_VALIDATION_REQUIRED_PRODUCTION_NOT_AUTHORIZED",
+  "working_paper": "Evolutionary appropriation of physical regularity generates downward causal constraint in a pre-genetic model",
+  "scientific_commit": "2c7d78694579755402c0a1896e109b29dec4d6a0",
+  "canonical_parameters": {
+    "N": 80,
+    "n_olig": 8,
+    "L": 60,
+    "alphabet_size": 4,
+    "k": 5,
+    "n_local_states": 4,
+    "n_segments": 4,
+    "Theta": 1.2,
+    "beta": 4.0,
+    "p_inherit": 0.975,
+    "mu": 0.001,
+    "reward": 2.0,
+    "penalty": 0.5,
+    "F_min": 0.1,
+    "affinity_seed": 123,
+    "generations": 250
+  },
+  "scaffold_selection": {
+    "algorithm": "Start with canonical [2,0,3,1]; iteratively select lexicographically smallest remaining permutation maximizing minimum Hamming distance to the already selected set; stop at 4 mappings.",
+    "scaffolds": [
+      {
+        "scaffold_id": "SCF0",
+        "mapping": [
+          2,
+          0,
+          3,
+          1
+        ],
+        "mapping_text": "[2,0,3,1]"
+      },
+      {
+        "scaffold_id": "SCF1",
+        "mapping": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "mapping_text": "[0,1,2,3]"
+      },
+      {
+        "scaffold_id": "SCF2",
+        "mapping": [
+          1,
+          3,
+          0,
+          2
+        ],
+        "mapping_text": "[1,3,0,2]"
+      },
+      {
+        "scaffold_id": "SCF3",
+        "mapping": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "mapping_text": "[3,2,1,0]"
+      }
+    ]
+  },
+  "n_blocks_per_scaffold": 30,
+  "n_independent_paired_blocks_total": 120,
+  "n_evolution_runs_total": 240,
+  "checkpoints": [
+    0,
+    25,
+    50,
+    75,
+    100,
+    125,
+    150,
+    175,
+    200,
+    225,
+    250
+  ],
+  "primary_estimator": {
+    "name": "C_down_primary",
+    "definition": "JSD_bits(P_intact(S,Z), P_erased(S,Z)); P_erased uses P(S)P(M) with the same P(Z|M,S).",
+    "primary_contrast": "Delta C_down = selected - matched neutral at generation 250"
+  },
+  "alternative_estimator": {
+    "name": "C_down_unitshuffle",
+    "K": 128,
+    "definition": "For each shuffle, independently within each model unit permute motif occurrences across its fixed segment slots, preserving that unit motif multiset and all segment occupancies exactly; pass each scrambled table through the same P(Z|M,S); average JSD_bits(P_intact(S,Z),P_scrambled_k(S,Z)) across K shuffles.",
+    "primary_contrast": "Delta C_down_unitshuffle = selected - matched neutral at generation 250"
+  },
+  "cross_evaluation": {
+    "probe_scaffolds": "all four frozen scaffold identities",
+    "draws": 16,
+    "CRN": "same local-state uniforms across all four probe scaffolds and across selected-neutral pair for each draw",
+    "historical_match_score": "H = F(historical probe) - mean(F(other three probes)); Delta H = H_selected - H_neutral",
+    "canonical_native_reversed": "SCF0 [2,0,3,1] vs SCF2 [1,3,0,2]"
+  },
+  "statistics": {
+    "independent_unit": "paired evolved population/seed block",
+    "nested": "generations, motif windows, local-state draws, alternative-erasure shuffles, cross-evaluation probe draws",
+    "bootstrap_count": 50000,
+    "bootstrap_type": "nonparametric percentile bootstrap of paired-block effects; stratified by scaffold for pooled summaries",
+    "primary_A_ci": "two-sided 95% bootstrap CI",
+    "mapping_family_ci": "two-sided 98.75% bootstrap CI per mapping (Bonferroni familywise 95% across 4)",
+    "confirmatory_sign_test": "one-sided exact binomial sign test on paired-block effects; exact zero counts as nonpositive",
+    "multiplicity": "Holm correction within each four-mapping confirmatory family; A canonical primary is a single prespecified primary endpoint",
+    "alpha": 0.05
+  },
+  "rng": {
+    "seed_derivation": "uint32 little-endian first 4 bytes of SHA256(project|version|scaffold|replicate|nonce); collision/overlap checked",
+    "exploratory_seed_overlap": "prohibited and checked against the 20 exploratory sweep seeds",
+    "purpose_separation": true,
+    "selected_neutral_pairing": "same base seed and same purpose streams; mode affects only selection rule",
+    "seed_reuse_across_scaffolds": false
+  },
+  "production_authorized": false
+}

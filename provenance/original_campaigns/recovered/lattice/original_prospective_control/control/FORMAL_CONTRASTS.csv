@@ -1,0 +1,6 @@
+contrast,property,prediction
+C1,scaffold-specific acquisition,"mean over probes of matched-history selected fitness minus mean mismatched-history selected fitness > 0"
+C2,fidelity dependence,"mean high-fidelity DeltaV_rel minus mean low-fidelity DeltaV_rel > 0"
+C3,fidelity operating point,"DeltaV_rel at p=0.975 > 0"
+C4,acquisition-expression separation,"DeltaV_rel at alpha=0.4 minus alpha=1.0 > 0"
+C5,equal-distance anisotropy,"DeltaV_rel at phi=pi minus phi=0 > 0"

@@ -1,0 +1,426 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "expected": {
+          "config.py": "d1b251326b88bd4049bb1e4492c309999ac840a1",
+          "core.py": "04f85796c61dbd46166dd24a95583c740f8fb999",
+          "rng.py": "12db759752491941b4901cdcae9ee376cd24567f",
+          "simulation.py": "3c2bd7a4f8fbddc001f7fdf6fe243551cd134a4e"
+        },
+        "got": {
+          "config.py": "d1b251326b88bd4049bb1e4492c309999ac840a1",
+          "core.py": "04f85796c61dbd46166dd24a95583c740f8fb999",
+          "rng.py": "12db759752491941b4901cdcae9ee376cd24567f",
+          "simulation.py": "3c2bd7a4f8fbddc001f7fdf6fe243551cd134a4e"
+        }
+      },
+      "name": "Canonical source blob SHAs match frozen scientific commit provenance",
+      "section": "A",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Canonical dimensions and affinity seed realization",
+      "section": "A",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Frozen parameters match manifest/config",
+      "section": "A",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Native and reversed mappings frozen",
+      "section": "A",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        {
+          "ancestor_diff": 0,
+          "final_diff": 0,
+          "g250_mean": 13.67109375,
+          "mode": "selected"
+        },
+        {
+          "ancestor_diff": 0,
+          "final_diff": 0,
+          "g250_mean": 3.1803125000000003,
+          "mode": "neutral"
+        }
+      ],
+      "name": "Archived exploratory beta=4 selected/neutral replay exactly",
+      "section": "A",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "different": true,
+        "same": true
+      },
+      "name": "Same seed/key deterministic and different root seed diverges",
+      "section": "B",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Ratio-specific evolution streams are distinct",
+      "section": "B",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Parallel scheduling does not alter keyed streams",
+      "section": "B",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "hash": "471c3cdc4e9086958ba93eca87be68d4774fe17c5cc29f871d3c0c1df077838e"
+      },
+      "name": "All ratios/modes reconstruct identical ancestor within block",
+      "section": "C",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Generation-0 observation excludes ratio and mode",
+      "section": "C",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "fitness": 17.5484375
+      },
+      "name": "Selected-neutral g0 state/fitness exactly identical",
+      "section": "C",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Selected-neutral evolution observation/reproduction CRNs mode-paired",
+      "section": "C",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Observation and reproduction substreams purpose-separated",
+      "section": "C",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Endpoint observation stream ratio-specific and mode-paired",
+      "section": "C",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Zero-centered fitness arithmetic identities",
+      "section": "D",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Canonical fitness floor remains 0.1",
+      "section": "D",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "new": 0.0044549614914758135,
+        "old": 0.004454961491476016
+      },
+      "name": "Expectation-level C_down replays validated exploratory estimator",
+      "section": "E",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "jsd_bits": 0.0044549614914758135,
+        "motif_marginal_error": 3.469446951953614e-18,
+        "segment_marginal_error": 0.0
+      },
+      "name": "Erasure preserves motif and segment marginals",
+      "section": "E",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "JSD nonnegative and zero on identity",
+      "section": "E",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "probe3": 0.005936232563188037,
+        "train": 0.0044549614914758135
+      },
+      "name": "Training and fixed-beta=3 probes use distinct frozen beta values",
+      "section": "E",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "C_down probe does not modify population",
+      "section": "E",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "shape": [
+          2,
+          16
+        ]
+      },
+      "name": "Specificity uses exactly 16 CRN draws",
+      "section": "F",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "native": 1.86796875,
+        "rev": 0.09999999999999999
+      },
+      "name": "Optimized native/reversed specificity agrees with canonical core",
+      "section": "F",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Specificity CRN excludes mode and mapping",
+      "section": "F",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Training/fixed assays purpose-separated and fixed probe beta=3",
+      "section": "F",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "ci": 0.975,
+        "high": 4.4,
+        "low": 1.6,
+        "mean": 3.0,
+        "median": 3.0,
+        "n": 5,
+        "n_boot": 50000
+      },
+      "name": "50,000 root-block bootstrap and 97.5% interval implemented",
+      "section": "G",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "ci": 0.9875,
+        "high": 4.6,
+        "low": 1.4,
+        "mean": 3.0,
+        "median": 3.0,
+        "n": 5,
+        "n_boot": 50000
+      },
+      "name": "98.75% interval implemented",
+      "section": "G",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "positive": {
+          "n": 10,
+          "nonpositive": 0,
+          "p_value": 0.0009765625,
+          "positive": 10
+        },
+        "zero": {
+          "n": 10,
+          "nonpositive": 10,
+          "p_value": 1.0,
+          "positive": 0
+        }
+      },
+      "name": "Exact one-sided sign test counts zero nonpositive",
+      "section": "G",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "adj": [
+          0.03,
+          0.06,
+          0.06
+        ]
+      },
+      "name": "Holm hand-check",
+      "section": "G",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "A1": [
+          20,
+          20,
+          20
+        ],
+        "A2": [
+          30,
+          30,
+          30
+        ],
+        "C1": [
+          0.3500000000000001,
+          0.35,
+          0.3500000000000001
+        ],
+        "C2": [
+          -0.2,
+          -0.20000000000000012,
+          -0.2
+        ],
+        "C3": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "C4": [
+          -0.20000000000000018,
+          -0.20000000000000018,
+          -0.20000000000000018
+        ],
+        "F1": [
+          4.0,
+          5.0,
+          6.0
+        ],
+        "F2": [
+          -3,
+          -3,
+          -3
+        ],
+        "R1": [
+          3.5,
+          3.4999999999999996,
+          3.5
+        ],
+        "R2": [
+          -2.0,
+          -2.0,
+          -2.0
+        ],
+        "R3": [
+          5.0,
+          5.0,
+          4.999999999999999
+        ],
+        "R4": [
+          -2.0,
+          -2.0,
+          -2.0
+        ]
+      },
+      "name": "All 12 frozen contrast formulas produce 3 block-level values",
+      "section": "G",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Seed ledger has 30 unique new root seeds and recorded zero prior overlap",
+      "section": "H",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Block manifest has 30 blocks",
+      "section": "H",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Condition manifest has seven frozen strengths/betas",
+      "section": "H",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "rows": 420
+      },
+      "name": "Run manifest has 420 unique IDs",
+      "section": "H",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Every block has 14 runs",
+      "section": "H",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "R0P0|neutral": 30,
+        "R0P0|selected": 30,
+        "R1P5|neutral": 30,
+        "R1P5|selected": 30,
+        "R2P5|neutral": 30,
+        "R2P5|selected": 30,
+        "R3P0|neutral": 30,
+        "R3P0|selected": 30,
+        "R3P5|neutral": 30,
+        "R3P5|selected": 30,
+        "R4P0|neutral": 30,
+        "R4P0|selected": 30,
+        "R4P5|neutral": 30,
+        "R4P5|selected": 30
+      },
+      "name": "Every ratio has 30 selected and 30 neutral runs",
+      "section": "H",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "All production authorization flags false at frozen gate",
+      "section": "H",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Expected output paths unique",
+      "section": "H",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "parsed": 420
+      },
+      "name": "Dry-run parses all 420 rows without scientific outcomes",
+      "section": "H",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "No confirmatory production endpoint exists before validation gate",
+      "section": "H",
+      "status": "PASS"
+    }
+  ],
+  "confirmatory_outcomes_inspected_before_gate": false,
+  "environment": {
+    "numba": "0.65.1",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "scipy": "1.17.0"
+  },
+  "gate": "PASS",
+  "scientific_commit": "2c7d78694579755402c0a1896e109b29dec4d6a0",
+  "summary": {
+    "fail": 0,
+    "pass": 40,
+    "total": 40
+  },
+  "validation_version": "v1.0.0"
+}

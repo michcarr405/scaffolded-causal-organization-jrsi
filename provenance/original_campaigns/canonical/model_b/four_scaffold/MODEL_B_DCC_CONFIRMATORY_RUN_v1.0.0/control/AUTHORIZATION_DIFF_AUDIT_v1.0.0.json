@@ -1,0 +1,12 @@
+{
+  "authorized_authorization_values": [
+    "True"
+  ],
+  "frozen_authorization_values": [
+    "False"
+  ],
+  "only_changed_column": "production_authorized",
+  "rows": 240,
+  "run_ids_equal": true,
+  "scientific_fields_bytewise_dataframe_equal": true
+}

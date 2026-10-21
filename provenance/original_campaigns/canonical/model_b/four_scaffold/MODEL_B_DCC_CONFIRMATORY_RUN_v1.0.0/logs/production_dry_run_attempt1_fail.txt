@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/mnt/data/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/scripts/run_production.py", line 120, in <module>
+    main()
+    ~~~~^^
+  File "/mnt/data/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/scripts/run_production.py", line 80, in main
+    auth,pairs=load_and_audit_manifests()
+               ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/mnt/data/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/scripts/run_production.py", line 43, in load_and_audit_manifests
+    raise RuntimeError(f'pair/run manifest mismatch for {run_id}')
+RuntimeError: pair/run manifest mismatch for SCF0_B00_SELECTED
+exit_status=1

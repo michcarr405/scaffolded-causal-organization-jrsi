@@ -1,0 +1,19 @@
+{
+  "plan_version": "v1.0.0",
+  "status": "FROZEN_BEFORE_OUTCOMES",
+  "affinity_seed": 51073,
+  "root_seed_base": 5000000,
+  "n_root_blocks": 30,
+  "p_values": [0.0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.75,0.8,0.825,0.85,0.875,0.9,0.925,0.95,0.975,1.0],
+  "population": 48,
+  "n_dimers_per_cell": 32,
+  "generations": 180,
+  "mutation_probability": 0.01,
+  "selection_coefficient": 24.0,
+  "michaelis_K": 1.0,
+  "scaffold_strength": 2.0,
+  "bootstrap_replicates": 50000,
+  "bootstrap_seed": 781245901,
+  "primary_endpoints": ["Delta_R_pop","Delta_V_rel"],
+  "n_evolutionary_runs": 1080
+}

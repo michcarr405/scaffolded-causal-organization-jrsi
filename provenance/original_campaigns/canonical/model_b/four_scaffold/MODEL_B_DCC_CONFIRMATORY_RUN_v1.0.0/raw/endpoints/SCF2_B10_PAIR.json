@@ -1,0 +1,36 @@
+{
+  "H_neutral": -1.5194921875,
+  "H_selected": 11.718313802083333,
+  "ancestor_hash_neutral": "b6f856e428aaa9b0a3d9691a62b038e437885c2e1092dded8449ea5abbc9f014",
+  "ancestor_hash_selected": "b6f856e428aaa9b0a3d9691a62b038e437885c2e1092dded8449ea5abbc9f014",
+  "base_seed_uint32": 2055716070,
+  "delta_C_down_primary": 0.005536386530036226,
+  "delta_C_down_unitshuffle": 0.005512503810538121,
+  "delta_H": 13.237805989583332,
+  "neutral_cross_eval": {
+    "SCF0": 2.585205078124999,
+    "SCF1": 4.806318359375,
+    "SCF2": 2.519404296874999,
+    "SCF3": 4.725166015625
+  },
+  "neutral_final_hash": "4aac0afc2792c3f0c7a67f4770036afb67b230284c82b0f4323ca942e9a59bd6",
+  "neutral_run_id": "SCF2_B10_NEUTRAL",
+  "paired_block_id": "SCF2_B10",
+  "scaffold_id": "SCF2",
+  "scaffold_mapping": [
+    1,
+    3,
+    0,
+    2
+  ],
+  "selected_cross_eval": {
+    "SCF0": 2.3705761718749994,
+    "SCF1": 8.613701171875,
+    "SCF2": 15.791943359375,
+    "SCF3": 1.236611328124999
+  },
+  "selected_final_hash": "32ef659f4e1c4ccc9deb1c05af0b8277ea4255c9caf69ed885a0738d82bc567e",
+  "selected_run_id": "SCF2_B10_SELECTED",
+  "status": "COMPLETE",
+  "validation_version": "v1.0.0"
+}

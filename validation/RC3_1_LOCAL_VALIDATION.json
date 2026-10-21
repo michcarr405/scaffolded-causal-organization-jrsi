@@ -1,0 +1,39 @@
+{
+  "candidate": "v0.1.2-rc3.1",
+  "date": "2026-09-30",
+  "status": "PASS_LOCAL_PRE_RC4",
+  "checks": [
+    {
+      "name": "repository_structure",
+      "status": "PASS"
+    },
+    {
+      "name": "full_manifest",
+      "status": "PASS",
+      "file_count": 11576
+    },
+    {
+      "name": "pytest",
+      "status": "PASS",
+      "tests": "3/3"
+    },
+    {
+      "name": "recovered_model_b_dense22_dry_run",
+      "status": "PASS",
+      "pairs": 660,
+      "runs": 1320
+    },
+    {
+      "name": "recovered_public_runner_compile",
+      "status": "PASS"
+    },
+    {
+      "name": "original_catalytic_prospective_full_reproduction",
+      "status": "PASS",
+      "byte_identical_outputs": "6/6"
+    }
+  ],
+  "recovery_status": "All five formerly missing production chains preserved under provenance and classified B pending RC4 release-form validation.",
+  "next_gate": "GitHub Actions network-enabled RC4 clean installation",
+  "license_status": "PENDING"
+}

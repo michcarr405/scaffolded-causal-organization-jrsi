@@ -1,0 +1,23 @@
+ratio_id,beta_over_theta,beta,source_grid
+R0P0,0.0,0.0,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R0P25,0.25,0.3,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R0P5,0.5,0.6,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R0P75,0.75,0.9,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R1P0,1.0,1.2,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R1P25,1.25,1.5,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R1P5,1.5,1.8,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R1P666667,1.666667,2.0,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R2P0,2.0,2.4,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R2P25,2.25,2.7,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R2P5,2.5,3.0,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R2P75,2.75,3.3,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R3P0,3.0,3.6,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R3P333333,3.333333,4.0,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R3P5,3.5,4.2,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R3P75,3.75,4.5,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R4P0,4.0,4.8,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R4P25,4.25,5.1,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R4P5,4.5,5.4,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R5P0,5.0,6.0,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R6P0,6.0,7.2,original exploratory+extension Figure 2 x-grid; outcomes not pooled
+R8P0,8.0,9.6,original exploratory+extension Figure 2 x-grid; outcomes not pooled

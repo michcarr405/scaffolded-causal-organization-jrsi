@@ -1,0 +1,30 @@
+{
+  "primary": {
+    "endpoint": "H_fit",
+    "mean": 0.07939628512714411,
+    "positive_blocks": 29,
+    "n_blocks": 30,
+    "one_sided_sign_p": 2.8870999813079834e-08,
+    "bootstrap_99_ci": [
+      0.06581039517563711,
+      0.09180096387085454
+    ],
+    "positive_block_threshold": 24,
+    "pass": true
+  },
+  "secondary": {
+    "H_selected": {
+      "mean": 0.08866090035403724,
+      "positive_blocks": 30
+    },
+    "H_neutral": {
+      "mean": 0.009264615226893121,
+      "positive_blocks": 16
+    },
+    "H_Vrel": {
+      "mean": 0.02458551879927308,
+      "positive_blocks": 27
+    }
+  },
+  "max_abs_identity_error": 0.0
+}

@@ -1,0 +1,6 @@
+{
+  "status": "DRY_RUN_PASS",
+  "n_runs": 240,
+  "n_pairs": 120,
+  "workers": 8
+}

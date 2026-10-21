@@ -1,0 +1,14 @@
+{
+  "history_rows_480": true,
+  "fidelity_rows_540": true,
+  "expression_rows_300": true,
+  "anisotropy_rows_360": true,
+  "all_30_blocks_history": true,
+  "all_30_blocks_fidelity": true,
+  "all_18_fidelities_each_block": true,
+  "all_4_histories_x_4_probes_each_block": true,
+  "all_10_expression_probes_each_block": true,
+  "all_12_anisotropy_probes_each_block": true,
+  "finite_primary_outputs": true,
+  "all_formal_contrasts_pass": true
+}

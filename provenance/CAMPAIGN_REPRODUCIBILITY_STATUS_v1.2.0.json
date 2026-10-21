@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.2.0",
+  "date": "2026-09-30",
+  "recovery_source_sha256": "bf00fccf416a157eab21842bb939c6135449212f206f0695752cd353a683c97f",
+  "status_definitions": {
+    "A": "archive-complete end-to-end validated in release form",
+    "B": "original production provenance complete; public portability/clean-room validation pending or required",
+    "C": "downstream reproducible only; original production incomplete",
+    "D": "result-level or incomplete production provenance"
+  },
+  "recovery_conclusion": "All five previously missing original production chains were recovered without reconstruction.",
+  "campaign_updates": [
+    {
+      "campaign": "Model B independent 22-point scaffold-strength replication",
+      "previous_status": "C",
+      "new_status": "B",
+      "provenance_class": "original_production_recovered",
+      "archive": "MODEL_B_DCC_SCAFFOLD_STRENGTH_DENSE_CONFIRMATORY_RESULT_FREEZE_v1.0.0.zip",
+      "manifest": "4689/4689 verified",
+      "release_note": "Complete production tree recovered; public release portability and clean-room replay still pending."
+    },
+    {
+      "campaign": "Catalytic prospective 22-point scaffold-strength campaign",
+      "previous_status": "C",
+      "new_status": "B",
+      "provenance_class": "original_production_recovered",
+      "archive": "CATALYTIC_COMPLEX_SCAFFOLD_STRENGTH_CONFIRMATORY_v1.0.0.zip",
+      "manifest": "33/33 verified",
+      "release_note": "Complete original campaign recovered; runner contains historical /mnt/data root and requires non-scientific portability normalization."
+    },
+    {
+      "campaign": "Catalytic prospective 18-point transmission-fidelity campaign",
+      "previous_status": "C",
+      "new_status": "B",
+      "provenance_class": "original_production_recovered",
+      "archive": "CATALYTIC_COMPLEX_FIDELITY_CONFIRMATORY_v1.0.0.zip",
+      "manifest": "21/21 verified",
+      "release_note": "Primary original campaign recovered; independent replication also recovered (29/29 final manifest verified)."
+    },
+    {
+      "campaign": "Catalytic reciprocal-history experiment",
+      "previous_status": "D",
+      "new_status": "B",
+      "provenance_class": "original_production_recovered",
+      "archive": "CATALYTIC_COMPLEX_HISTORY_SPECIFICITY_CONFIRMATORY_v1.0.0.zip",
+      "manifest": "20/20 verified",
+      "release_note": "Original prospective runner, config, seed ledger, raw/cross-evaluation results and endpoint states recovered; historical /mnt/data root requires portability normalization."
+    },
+    {
+      "campaign": "Lattice original prospective abstract control",
+      "previous_status": "D",
+      "new_status": "B",
+      "provenance_class": "original_production_recovered",
+      "archive": "ABSTRACT_LATTICE_CONFIRMATORY_v1.0.0.zip",
+      "manifest": "28/28 verified",
+      "release_note": "Original prospective runner, config, seed ledger, results and validation recovered; historical /mnt/data root requires portability normalization."
+    }
+  ],
+  "remaining_C_or_D_main_campaigns": 0,
+  "release_gate_effect": "RC3.1 provenance correction required before the final RC4 network-enabled clean-installation run."
+}

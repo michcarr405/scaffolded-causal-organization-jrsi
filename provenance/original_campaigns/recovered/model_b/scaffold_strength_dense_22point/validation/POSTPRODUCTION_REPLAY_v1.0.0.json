@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "block_id": "DSTR_B00",
+      "ratio_id": "R0P0",
+      "exact": true
+    },
+    {
+      "block_id": "DSTR_B12",
+      "ratio_id": "R3P333333",
+      "exact": true
+    },
+    {
+      "block_id": "DSTR_B29",
+      "ratio_id": "R4P5",
+      "exact": true
+    }
+  ]
+}

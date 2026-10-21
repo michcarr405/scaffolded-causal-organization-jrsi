@@ -1,0 +1,6 @@
+PDF: /mnt/data/CATALYTIC_COMPLEX_FIDELITY_CONFIRMATORY_REPLICATION_v1.0.0/results/FIGURE_4E_FIDELITY_VREL.pdf
+Pages: 1
+Encrypted: False
+Openable (PyMuPDF): True
+Likely scanned: False
+XFA present: False

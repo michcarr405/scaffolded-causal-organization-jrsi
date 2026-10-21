@@ -1,0 +1,181 @@
+{
+  "plan_version": "v1.0.0",
+  "project": "Evolutionary appropriation of physical regularity generates downward causal constraint in a pre-genetic model",
+  "campaign": "prospective dense-grid replication of scaffold-strength figure",
+  "scientific_commit": "2c7d78694579755402c0a1896e109b29dec4d6a0",
+  "status": "DESIGN FROZEN; VALIDATION REQUIRED; PRODUCTION NOT AUTHORIZED",
+  "canonical_model": {
+    "N": 80,
+    "n_olig": 8,
+    "L": 60,
+    "alphabet_size": 4,
+    "k": 5,
+    "n_local_states": 4,
+    "n_segments": 4,
+    "scaffold_mapping": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "theta": 1.2,
+    "p_inherit": 0.975,
+    "mutation_rate": 0.001,
+    "reward": 2.0,
+    "penalty": 0.5,
+    "fitness_floor": 0.1,
+    "affinity_seed": 123,
+    "generations": 250
+  },
+  "strength_grid": [
+    {
+      "ratio_id": "R0P0",
+      "beta_over_theta": 0.0,
+      "beta": 0.0
+    },
+    {
+      "ratio_id": "R0P25",
+      "beta_over_theta": 0.25,
+      "beta": 0.3
+    },
+    {
+      "ratio_id": "R0P5",
+      "beta_over_theta": 0.5,
+      "beta": 0.6
+    },
+    {
+      "ratio_id": "R0P75",
+      "beta_over_theta": 0.75,
+      "beta": 0.9
+    },
+    {
+      "ratio_id": "R1P0",
+      "beta_over_theta": 1.0,
+      "beta": 1.2
+    },
+    {
+      "ratio_id": "R1P25",
+      "beta_over_theta": 1.25,
+      "beta": 1.5
+    },
+    {
+      "ratio_id": "R1P5",
+      "beta_over_theta": 1.5,
+      "beta": 1.8
+    },
+    {
+      "ratio_id": "R1P666667",
+      "beta_over_theta": 1.666667,
+      "beta": 2.0
+    },
+    {
+      "ratio_id": "R2P0",
+      "beta_over_theta": 2.0,
+      "beta": 2.4
+    },
+    {
+      "ratio_id": "R2P25",
+      "beta_over_theta": 2.25,
+      "beta": 2.7
+    },
+    {
+      "ratio_id": "R2P5",
+      "beta_over_theta": 2.5,
+      "beta": 3.0
+    },
+    {
+      "ratio_id": "R2P75",
+      "beta_over_theta": 2.75,
+      "beta": 3.3
+    },
+    {
+      "ratio_id": "R3P0",
+      "beta_over_theta": 3.0,
+      "beta": 3.6
+    },
+    {
+      "ratio_id": "R3P333333",
+      "beta_over_theta": 3.333333,
+      "beta": 4.0
+    },
+    {
+      "ratio_id": "R3P5",
+      "beta_over_theta": 3.5,
+      "beta": 4.2
+    },
+    {
+      "ratio_id": "R3P75",
+      "beta_over_theta": 3.75,
+      "beta": 4.5
+    },
+    {
+      "ratio_id": "R4P0",
+      "beta_over_theta": 4.0,
+      "beta": 4.8
+    },
+    {
+      "ratio_id": "R4P25",
+      "beta_over_theta": 4.25,
+      "beta": 5.1
+    },
+    {
+      "ratio_id": "R4P5",
+      "beta_over_theta": 4.5,
+      "beta": 5.4
+    },
+    {
+      "ratio_id": "R5P0",
+      "beta_over_theta": 5.0,
+      "beta": 6.0
+    },
+    {
+      "ratio_id": "R6P0",
+      "beta_over_theta": 6.0,
+      "beta": 7.2
+    },
+    {
+      "ratio_id": "R8P0",
+      "beta_over_theta": 8.0,
+      "beta": 9.6
+    }
+  ],
+  "fixed_probe": {
+    "beta": 3.0,
+    "beta_over_theta": 2.5,
+    "reversed_mapping": [
+      1,
+      3,
+      0,
+      2
+    ],
+    "specificity_crn_draws": 16
+  },
+  "design": {
+    "n_root_seed_blocks": 30,
+    "runs_per_block": 44,
+    "total_runs": 1320,
+    "selected_neutral_pairing": true,
+    "strengths_repeated_within_block": true,
+    "exact_original_22_point_grid": true
+  },
+  "inference": {
+    "formal_contrasts": "unchanged from seven-anchor confirmatory campaign",
+    "bootstrap_replicates": 50000,
+    "bootstrap_seed_uint32": 2368317404,
+    "bootstrap_seed_tag": "MODEL_B_DCC_STRENGTH_DENSE_CONFIRM|v1.0.0|analysis-bootstrap-root",
+    "resample_unit": "root seed block",
+    "sign_test": "one-sided exact",
+    "multiplicity": "Holm within prespecified families",
+    "pointwise_tests_over_22_grid": false
+  },
+  "figure_policy": {
+    "plot_all_22_points": true,
+    "x_range": [
+      0,
+      8
+    ],
+    "panel_b": "selected-minus-ancestral and neutral-minus-ancestral",
+    "no_posthoc_smoothing_or_point_removal": true
+  },
+  "production_authorized": false
+}

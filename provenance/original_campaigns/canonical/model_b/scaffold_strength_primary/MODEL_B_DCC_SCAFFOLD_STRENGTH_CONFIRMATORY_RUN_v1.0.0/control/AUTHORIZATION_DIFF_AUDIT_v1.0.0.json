@@ -1,0 +1,7 @@
+{
+  "authorized_all_true": true,
+  "frozen_all_false": true,
+  "only_changed_column": "production_authorized",
+  "rows": 420,
+  "scientific_columns_equal": true
+}

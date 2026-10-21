@@ -1,0 +1,18 @@
+{
+  "all_pass": true,
+  "endpoint_json_equal": {
+    "STR_B00_R3P5_NEUTRAL": true,
+    "STR_B00_R3P5_SELECTED": true
+  },
+  "pair": "STR_B00_R3P5",
+  "state_comparison": {
+    "STR_B00_R3P5_NEUTRAL": {
+      "g0_equal": true,
+      "g250_equal": true
+    },
+    "STR_B00_R3P5_SELECTED": {
+      "g0_equal": true,
+      "g250_equal": true
+    }
+  }
+}

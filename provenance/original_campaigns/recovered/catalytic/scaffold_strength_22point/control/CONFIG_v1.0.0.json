@@ -1,0 +1,15 @@
+{
+  "campaign": "CATALYTIC_COMPLEX_SCAFFOLD_STRENGTH_CONFIRMATORY_v1.0.0",
+  "affinity_seed": 51073,
+  "population_size": 48,
+  "dimers_per_cell": 32,
+  "generations": 180,
+  "mutation_probability": 0.01,
+  "selection_coefficient": 24.0,
+  "michaelis_K": 1.0,
+  "transmission_fidelity": 0.975,
+  "n_blocks": 30,
+  "scaffold_strengths": [0.0,0.25,0.5,0.75,1.0,1.25,1.5,1.666667,2.0,2.25,2.5,2.75,3.0,3.333333,3.5,3.75,4.0,4.25,4.5,5.0,6.0,8.0],
+  "bootstrap_reps": 20000,
+  "bootstrap_seed": 42222026
+}

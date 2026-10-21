@@ -1,0 +1,28 @@
+{
+  "beta": 4.0,
+  "historical_kernel_max_abs_error": 4.440892098500626e-16,
+  "historical_mapping": [
+    2,
+    0,
+    3,
+    1
+  ],
+  "max_distance_error": 4.263256414560601e-14,
+  "max_segment_mean_abs": 1.6653345369377348e-16,
+  "max_segment_norm2_error": 7.105427357601002e-15,
+  "n_probe_scaffolds_including_history": 29,
+  "orientations_per_distance": 4,
+  "per_segment_norm2": 11.999999999999998,
+  "status": "PASS",
+  "target_distances": [
+    16.0,
+    32.0,
+    48.0,
+    64.0,
+    80.0,
+    112.0,
+    144.0
+  ],
+  "theta": 1.2,
+  "total_norm2": 47.99999999999999
+}

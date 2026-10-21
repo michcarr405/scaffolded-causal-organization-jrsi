@@ -1,0 +1,20 @@
+{
+  "excluded_numeric_seed_count": 200,
+  "source_files": [
+    "/mnt/data/MODEL_B_DCC_CONFIRMATORY_PLAN_v1.0.0/SEED_LEDGER_v1.0.0.csv",
+    "/mnt/data/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/control/SEED_LEDGER_v1.0.0.csv",
+    "/mnt/data/MODEL_B_DCC_SCAFFOLD_STRENGTH_CONFIRMATORY_PLAN_v1.0.0/SEED_LEDGER_v1.0.0.csv",
+    "/mnt/data/MODEL_B_DCC_SCAFFOLD_STRENGTH_CONFIRMATORY_RUN_v1.0.0/control/SEED_LEDGER_v1.0.0.csv",
+    "/mnt/data/MODEL_B_DCC_TRANSMISSION_FIDELITY_CONFIRMATORY_PLAN_v1.0.0/SEED_LEDGER_v1.0.0.csv",
+    "/mnt/data/MODEL_B_DCC_TRANSMISSION_FIDELITY_CONFIRMATORY_RUN_v1.0.0/control/SEED_LEDGER_v1.0.0.csv",
+    "/mnt/data/dcc_exploratory_extract/modelb_ratio_sweep_exploratory/seed_ledger.csv",
+    "/mnt/data/dcc_exploratory_extract/modelb_ratio_sweep_extension_v2/seed_ledger.csv",
+    "/mnt/data/prev_confirm_full/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/control/SEED_LEDGER_v1.0.0.csv",
+    "/mnt/data/ratio_exp/modelb_ratio_sweep_exploratory/seed_ledger.csv",
+    "/mnt/data/ratio_expl_full/modelb_ratio_sweep_exploratory/seed_ledger.csv",
+    "/mnt/data/ratio_ext_code/modelb_ratio_sweep_extension_v2/seed_ledger.csv",
+    "/mnt/data/ratio_ext_v2/modelb_ratio_sweep_extension_v2/seed_ledger.csv"
+  ],
+  "new_root_count": 30,
+  "overlap_count": 0
+}

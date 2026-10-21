@@ -1,0 +1,9 @@
+{
+  "gate": "PASS",
+  "summary": {
+    "pass": 56,
+    "fail": 0,
+    "total": 56
+  },
+  "report": "/mnt/data/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/validation/VALIDATION_REPORT_v1.0.0.json"
+}

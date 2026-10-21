@@ -1,0 +1,4 @@
+c106573c8db3f8b35a43af6150c181785988f76ffb5e4113ec059aa65c47a7d0  /mnt/data/ABSTRACT_LATTICE_DISCOVERY_v0.1.0/cross_evaluation.csv
+26eef7f45a0c5bd85cba20c94ce5c89fc1b17e7d480936aef0efdd397163250a  /mnt/data/ABSTRACT_LATTICE_DISCOVERY_v0.1.0/fidelity.csv
+59900e6c43a6c577c2565d8ad8aec5de40ad22b66d5d17b1d5ac1d6a595d11e0  /mnt/data/ABSTRACT_LATTICE_DISCOVERY_v0.1.0/expression_scaling.csv
+81f10b7d49b106367ceb6dde34aa1f6b6c4f6cb0c0d7ee685d3e56b852c03b5c  /mnt/data/ABSTRACT_LATTICE_DISCOVERY_v0.1.0/anisotropy.csv

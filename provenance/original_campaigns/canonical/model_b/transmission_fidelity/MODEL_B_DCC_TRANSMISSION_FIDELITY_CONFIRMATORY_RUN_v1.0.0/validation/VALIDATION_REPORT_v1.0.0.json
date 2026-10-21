@@ -1,0 +1,290 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "expected": {
+          "config.py": "d1b251326b88bd4049bb1e4492c309999ac840a1",
+          "core.py": "04f85796c61dbd46166dd24a95583c740f8fb999",
+          "rng.py": "12db759752491941b4901cdcae9ee376cd24567f",
+          "simulation.py": "3c2bd7a4f8fbddc001f7fdf6fe243551cd134a4e"
+        },
+        "got": {
+          "config.py": "d1b251326b88bd4049bb1e4492c309999ac840a1",
+          "core.py": "04f85796c61dbd46166dd24a95583c740f8fb999",
+          "rng.py": "12db759752491941b4901cdcae9ee376cd24567f",
+          "simulation.py": "3c2bd7a4f8fbddc001f7fdf6fe243551cd134a4e"
+        }
+      },
+      "name": "Canonical source blob SHAs match frozen scientific commit provenance",
+      "section": "A",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Canonical dimensions and affinity realization",
+      "section": "A",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Frozen fixed parameters match config",
+      "section": "A",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Exact 18-point fidelity grid preserved",
+      "section": "A",
+      "status": "PASS"
+    },
+    {
+      "detail": [
+        {
+          "C_new": 0.0039264586303297275,
+          "C_old": 0.0039264586303297,
+          "R_new": 14.3859375,
+          "R_old": 14.3859375,
+          "fitness_new": 24.66328125,
+          "fitness_old": 24.66328125,
+          "mode": "selected"
+        },
+        {
+          "C_new": 0.00035789717653114607,
+          "C_old": 0.0003578971765311,
+          "R_new": 4.017187500000002,
+          "R_old": 4.017187500000002,
+          "fitness_new": 18.19609375,
+          "fitness_old": 18.19609375,
+          "mode": "neutral"
+        }
+      ],
+      "name": "Archived exploratory p=0.975 selected/neutral endpoint replay exactly",
+      "section": "A",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Same keyed seed deterministic and different root seed diverges",
+      "section": "B",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "All 18 fidelity-specific streams are distinct",
+      "section": "B",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Parallel scheduling does not alter keyed streams",
+      "section": "B",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "hash": "2fb23aab42137e8a9255731106bd58aafc83480517691df03e5a1007b1e9778e"
+      },
+      "name": "All fidelities/modes reconstruct identical ancestor within block",
+      "section": "C",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "fitness": 17.33515625
+      },
+      "name": "Generation-0 selected/neutral observation and fitness exactly identical",
+      "section": "C",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Selected-neutral propagation streams are mode-paired",
+      "section": "C",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Observation and reproduction substreams are purpose-separated",
+      "section": "C",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Endpoint stream is fidelity-specific and mode-paired",
+      "section": "C",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "jsd_bits": 0.0039264586303297275,
+        "motif_marginal_error": 1.734723475976807e-18,
+        "segment_marginal_error": 5.551115123125783e-17
+      },
+      "name": "C_down relational erasure preserves motif and segment marginals",
+      "section": "D",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "C_down nonnegative and identity JSD zero",
+      "section": "D",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "C_down estimator does not modify population",
+      "section": "D",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "shape": [
+          2,
+          16
+        ]
+      },
+      "name": "Specificity uses exactly 16 native/reversed CRN draws",
+      "section": "E",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "R16": 13.971376953125002,
+        "R4": 14.013671874999998
+      },
+      "name": "Four-draw and sixteen-draw assays use identical per-draw estimand",
+      "section": "E",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Optimized specificity agrees with canonical core for native/reversed draw",
+      "section": "E",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "theoretical_variance_ratio_mean16_to_mean4": 0.25
+      },
+      "name": "Increasing draws changes only Monte Carlo averaging precision",
+      "section": "E",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "ci": 0.98333,
+        "high": 4.4,
+        "low": 1.6,
+        "mean": 3.0,
+        "median": 3.0,
+        "n": 5,
+        "n_boot": 50000
+      },
+      "name": "50,000 root-block bootstrap implemented",
+      "section": "F",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Exact one-sided sign test counts zero nonpositive",
+      "section": "F",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "adj": [
+          0.03,
+          0.06,
+          0.06
+        ]
+      },
+      "name": "Holm hand-check",
+      "section": "F",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "C1toy": 12.0,
+        "C2toy": 4.0,
+        "C3toy": 16
+      },
+      "name": "Frozen contrast group definitions parse and give intended ordering",
+      "section": "F",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Seed ledger has 30 unique new root seeds and no recorded overlap",
+      "section": "G",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Condition manifest has exact 18 fidelities",
+      "section": "G",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "rows": 1080
+      },
+      "name": "Run manifest has 1080 unique IDs",
+      "section": "G",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Every root block has 36 runs",
+      "section": "G",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Every fidelity has 30 selected and 30 neutral runs",
+      "section": "G",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "All production authorization flags false at frozen gate",
+      "section": "G",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "Expected output paths unique",
+      "section": "G",
+      "status": "PASS"
+    },
+    {
+      "detail": {
+        "parsed": 1080
+      },
+      "name": "Dry manifest parses all 1080 rows",
+      "section": "G",
+      "status": "PASS"
+    },
+    {
+      "detail": null,
+      "name": "No confirmatory endpoint exists before validation gate",
+      "section": "G",
+      "status": "PASS"
+    }
+  ],
+  "confirmatory_outcomes_inspected_before_gate": false,
+  "environment": {
+    "numba": "0.65.1",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "scipy": "1.17.0"
+  },
+  "gate": "PASS",
+  "scientific_commit": "2c7d78694579755402c0a1896e109b29dec4d6a0",
+  "summary": {
+    "fail": 0,
+    "pass": 33,
+    "total": 33
+  },
+  "validation_version": "v1.0.0"
+}

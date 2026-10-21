@@ -1,0 +1,7 @@
+{
+  "plan_created_before_validation_and_production": true,
+  "plan_zip": "/mnt/data/MODEL_B_DCC_SCAFFOLD_STRENGTH_DENSE_CONFIRMATORY_PLAN_v1.0.0.zip",
+  "plan_zip_sha256": "30568cb87af75f879c193433635d9e5edd730471acde77b737affe80d58096be",
+  "production_authorized_after_validation": true,
+  "validation_pass": "40/40"
+}

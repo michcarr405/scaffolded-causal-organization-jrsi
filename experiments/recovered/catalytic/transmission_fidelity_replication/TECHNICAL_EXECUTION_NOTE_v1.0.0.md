@@ -1,0 +1,3 @@
+# Technical execution note v1.0.0
+
+The scientific design, grid, seed ledger, production code, analysis code, and success criteria were SHA256-frozen before production outcomes. Two foreground invocations were terminated by the execution environment timeout before the production script wrote any scientific result tables or endpoint-state files. No partial scientific outcomes were inspected or used to alter the design. The identical frozen production code was then executed as a background process with 12 workers and completed all 30 blocks. No scientific parameter, seed, endpoint, contrast, or analysis rule changed.
