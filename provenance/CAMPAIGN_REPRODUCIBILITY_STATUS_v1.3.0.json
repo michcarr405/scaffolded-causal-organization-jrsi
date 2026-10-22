@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.3.0",
+  "date": "2026-10-22",
+  "supersedes": "provenance/CAMPAIGN_REPRODUCIBILITY_STATUS_v1.2.0.json",
+  "status_definitions": {
+    "A": "archive-complete and end-to-end validated in release form",
+    "B": "original production provenance complete; release-form installation/portability validated, but full end-to-end production replay not completed for the campaign",
+    "C": "downstream reproducible only; original production incomplete",
+    "D": "result-level or incomplete production provenance"
+  },
+  "recovery_conclusion": "All five previously missing original production chains were recovered without reconstruction.",
+  "rc4_clean_room": {
+    "status": "PASS",
+    "environment": "GitHub-hosted Ubuntu, Python 3.13",
+    "demonstrated": [
+      "network dependency installation",
+      "repository structure and SHA manifest validation",
+      "pytest suite",
+      "Model B dense-22 release-form dry run: 660 selected-neutral pairs / 1320 runs",
+      "normalized recovered-runner compilation",
+      "original catalytic prospective replay with byte-exact state-defining objects and portable numeric equivalence for derived floating-point text outputs"
+    ],
+    "limitation": "The large recovered production campaigns were not all recomputed end-to-end during RC4; therefore their conservative campaign class remains B."
+  },
+  "campaign_updates": [
+    {
+      "campaign": "Model B independent 22-point scaffold-strength replication",
+      "previous_status": "C",
+      "current_status": "B",
+      "manifest": "4689/4689 verified",
+      "rc4": "release-form dry-run PASS (660 pairs / 1320 runs)"
+    },
+    {
+      "campaign": "Catalytic prospective 22-point scaffold-strength campaign",
+      "previous_status": "C",
+      "current_status": "B",
+      "manifest": "33/33 verified",
+      "rc4": "release-form compile PASS"
+    },
+    {
+      "campaign": "Catalytic prospective 18-point transmission-fidelity campaign",
+      "previous_status": "C",
+      "current_status": "B",
+      "manifest": "21/21 primary; independent replication 29/29 verified",
+      "rc4": "release-form compile PASS"
+    },
+    {
+      "campaign": "Catalytic reciprocal-history experiment",
+      "previous_status": "D",
+      "current_status": "B",
+      "manifest": "20/20 verified",
+      "rc4": "release-form compile PASS"
+    },
+    {
+      "campaign": "Lattice original prospective abstract control",
+      "previous_status": "D",
+      "current_status": "B",
+      "manifest": "28/28 verified",
+      "rc4": "release-form compile PASS"
+    }
+  ],
+  "remaining_C_or_D_main_campaigns": 0,
+  "release_gate_effect": "RC4 PASS. RC4.1 publication packaging and RC4.2 release-hygiene synchronization precede RC5 manuscript/repository consistency."
+}

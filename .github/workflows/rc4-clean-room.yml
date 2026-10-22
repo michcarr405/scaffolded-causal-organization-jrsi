@@ -1,43 +1,9 @@
-name: RC4 clean-room reproducibility
+name: RC4 legacy clean-room (superseded)
 on:
   workflow_dispatch:
-  push:
-    branches: ["rc4-candidate"]
-  pull_request:
 
 jobs:
-  clean-room:
+  notice:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.13'
-          cache: 'pip'
-      - name: Install declared dependencies
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
-      - name: Record environment
-        run: |
-          python -V
-          python -m pip freeze | sort | tee rc4_pip_freeze.txt
-      - name: Validate package and manifests
-        run: |
-          python scripts/validate_repository.py
-          python scripts/validate_manifests.py
-          python -m pytest -q
-      - name: Validate recovered production bundles
-        run: python scripts/validate_recovered_campaigns.py
-      - name: Reproduce original catalytic prospective assay
-        run: python scripts/run_catalytic_original_check.py
-      - name: Upload RC4 logs
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: rc4-clean-room-logs
-          path: |
-            rc4_pip_freeze.txt
-            work/
-          if-no-files-found: ignore
+      - run: echo "Superseded by .github/workflows/rc4-clean-room-v2.yml; retained for audit history."
