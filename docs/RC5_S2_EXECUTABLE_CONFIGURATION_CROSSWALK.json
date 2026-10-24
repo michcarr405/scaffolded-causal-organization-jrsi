@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "gate": "RC5",
   "status": "PARTIAL_VERIFIED",
   "created": "2026-10-24",
@@ -13,15 +13,30 @@
       "configuration": "experiments/recovered/model_b/scaffold_strength_dense_22point/control/RUN_MANIFEST_AUTHORIZED_v1.0.0.csv",
       "seed_evidence": "experiments/recovered/model_b/scaffold_strength_dense_22point/control/RUN_MANIFEST_FROZEN_v1.0.0.csv",
       "verified_fields": [
-        "1320 authorized runs",
-        "660 selected-neutral pairs",
-        "block_id and ratio_id paired",
-        "base_seed_uint32 in run manifest"
+        "1320 authorized rows = 30 root blocks x 22 strengths x 2 modes",
+        "660 selected-neutral block-strength pairs",
+        "all CSV rows parse into 46 columns",
+        "N_model_units=80",
+        "n_oligomer_slots=8",
+        "sequence_length=60",
+        "alphabet_size=4",
+        "motif_window_k=5",
+        "n_local_states=4",
+        "n_segments=4",
+        "theta=1.2",
+        "p_inherit=0.975",
+        "mutation_rate=0.001",
+        "reward_strength=2.0",
+        "penalty_strength=0.5",
+        "fitness_floor=0.1",
+        "affinity_seed=123",
+        "generations=250",
+        "specificity_crn_draws=16",
+        "exact 22 beta_over_theta values, including 1.666667 and 3.333333",
+        "base_seed_uint32 recorded per run"
       ],
-      "status": "VERIFIED_PARTIAL",
-      "unverified_fields": [
-        "independent inspection of every individual simulation setting"
-      ]
+      "status": "VERIFIED_SOURCE_CONFIG",
+      "unverified_fields": []
     },
     {
       "id": "catalytic_strength_22",
@@ -72,7 +87,7 @@
       "s2": "Catalytic / Prospective reciprocal-history test",
       "entrypoint": "experiments/recovered/catalytic/reciprocal_history/preoutcome/run_history_specificity_confirmatory.py",
       "configuration": "embedded executable constants",
-      "seed_evidence": "Original runner and seed ledger recovered; source details not fully cross-inspected for this crosswalk",
+      "seed_evidence": "experiments/recovered/catalytic/reciprocal_history/preoutcome/SEED_LEDGER.csv (30 rows, founder and four treatment-specific seeds); executable bootstrap seed 93510",
       "verified_fields": [
         "N=32 dimers",
         "POP=48",
@@ -83,12 +98,15 @@
         "P=0.975",
         "S=2",
         "ASEED=51073",
-        "H1=e1 and H2=e2"
+        "H1=e1 and H2=e2",
+        "30 independent blocks recorded in seed ledger",
+        "4 evolved branches per block = 120 runs",
+        "100000 bootstrap resamples in executable",
+        "bootstrap RNG seed 93510",
+        "identity H_fit=.5[(R1H1-R2H1)+(R2H2-R1H2)]"
       ],
-      "status": "VERIFIED_PARTIAL",
-      "unverified_fields": [
-        "full root seed and bootstrap settings crosswalk"
-      ]
+      "status": "VERIFIED_SOURCE_CONFIG",
+      "unverified_fields": []
     },
     {
       "id": "lattice_original_prospective",
@@ -129,5 +147,5 @@
     "Catalytic initial prospective causal assay",
     "Lattice post-confirmatory mapping and sentinel executable mapping"
   ],
-  "gate_decision": "RC5 remains OPEN pending full S2 crosswalk; no new discrepancies detected."
+  "gate_decision": "Partial S2 crosswalk; five recovered chains now have direct source/config/seed checks. Other campaign-specific executable mappings remain open."
 }
