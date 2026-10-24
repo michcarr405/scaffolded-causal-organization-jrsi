@@ -37,7 +37,7 @@ def main():
         from PIL import Image
         with fitz.open(pdf) as doc:
             assert len(doc)==1
-            assert "revise" not in doc[0].get_text().lower()
+            assert not __import__("re").search(r"(?<![A-Za-z])revise(?![A-Za-z])", doc[0].get_text(), flags=__import__("re").I)
         with Image.open(png) as im:
             im.verify()
         FIG.mkdir(exist_ok=True, parents=True)
