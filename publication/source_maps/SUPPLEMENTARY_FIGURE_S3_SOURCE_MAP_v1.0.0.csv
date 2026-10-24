@@ -1,0 +1,4 @@
+panel,display,sources,status
+a,ancestral score comparison,RATIO_SUMMARY_7pt_primary_v1.0.0.csv; RATIO_SUMMARY_22pt_confirmatory_v1.0.0.csv,two independent prospective campaigns
+b,selected recovery comparison,same,two independent prospective campaigns
+c,selected-neutral DeltaF comparison,same,two independent prospective campaigns

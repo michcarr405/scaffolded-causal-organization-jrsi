@@ -1,0 +1,5 @@
+panel,source,content
+a,S6_INTACT_G250_SELECTED_ENRICHMENT.csv,intact selected enrichment
+b,S6_PRIMARY_POST_ERASURE_ENRICHMENT.csv,primary factorized erasure
+c,S6_EXACT_MARGIN_POST_ERASURE_ENRICHMENT.csv,exact-margin erasure residuals
+d,PAIRED_BLOCK_ENDPOINTS_v1.0.0.csv,blockwise agreement of selected-specific erasure effects

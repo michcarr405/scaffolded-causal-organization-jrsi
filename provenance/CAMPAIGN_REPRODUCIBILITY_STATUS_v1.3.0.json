@@ -60,5 +60,5 @@
     }
   ],
   "remaining_C_or_D_main_campaigns": 0,
-  "release_gate_effect": "RC4 PASS. RC4.1 publication packaging and RC4.2 release-hygiene synchronization precede RC5 manuscript/repository consistency."
+  "release_gate_effect": "RC4 PASS. RC4.1 publication packaging, RC4.2 release hygiene, RC4.3 exact figure-builder recovery, and RC4.4 portable figure rebuild precede RC5 manuscript/repository consistency."
 }

@@ -1,0 +1,6 @@
+contrast,property,mean,ci99_low,ci99_high,positive_blocks,n_blocks,definition
+C1,history specificity,0.00854079,0.00734351,0.00976737,30,30,matching-history fitness advantage
+C2,heredity high-low,0.1440847,,,30,30,high minus low DeltaV_rel
+C3,heredity operating point,0.17188971,,,30,30,DeltaV_rel at p=0.975
+C4,acquisition-expression,0.10597441,0.10290756,0.10892076,30,30,DeltaV_rel(0.4BH)-DeltaV_rel(BH)
+C5,equal-distance anisotropy,0.15742683,0.15369067,0.16105461,30,30,DeltaV_rel(phi=pi)-DeltaV_rel(phi=0)

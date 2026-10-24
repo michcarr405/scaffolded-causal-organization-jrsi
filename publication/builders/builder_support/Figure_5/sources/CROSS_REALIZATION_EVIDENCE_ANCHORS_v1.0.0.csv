@@ -1,0 +1,13 @@
+signature,realization,anchor,metric,support
+History specificity,Model B,11.91,ΔH score units,30/30
+History specificity,Catalytic,0.0794,H_fit fitness units,29/30
+History specificity,Lattice,0.00854,matching-history advantage,30/30
+Heredity dependence,Model B,0.00366,ΔC_down bits at p=.975,
+Heredity dependence,Catalytic,0.03429,ΔV_rel at p=.975,
+Heredity dependence,Lattice,0.17189,ΔV_rel at p=.975,30/30
+Acquisition-expression,Model B,R²=0.966,125-point no-refit surface,5/5 peaks
+Acquisition-expression,Catalytic,+0.000339,"probe - training, bits",25/30
+Acquisition-expression,Lattice,+0.10597,ΔV_rel contrast,30/30
+Equal-distance anisotropy,Model B,r=0.988,8-direction profile,perm p=0.00025
+Equal-distance anisotropy,Catalytic,p=2.67e-4,"Friedman, 8 directions",equal d²=1
+Equal-distance anisotropy,Lattice,r=0.999956,12-direction profile,C5 30/30

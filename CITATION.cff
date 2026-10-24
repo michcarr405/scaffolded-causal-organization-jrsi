@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the associated article and final immutable repository release."
 title: "Scaffolded causal organization: reproducibility artifact"
 type: software
-version: 0.1.5-rc4.2
+version: 0.1.7-rc4.4
 authors:
   - family-names: Carr
     given-names: Michael J.

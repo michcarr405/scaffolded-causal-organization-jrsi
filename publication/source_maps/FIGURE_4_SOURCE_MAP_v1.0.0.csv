@@ -1,0 +1,4 @@
+panel,source,scientific_content,layout_revision
+a,SCAFFOLD_STRENGTH_SUMMARY.csv,selected and neutral fitness change from ancestral baseline,legend nudged upward within upper-right corner
+b,FIDELITY_SUMMARY.csv,Delta V_rel across transmission fidelity p<1,none
+c,CONFIRM_BLOCK_RESULTS.csv,DeltaC_probe05 - Delta_C_pop for 30 root-seed blocks,inferential annotation removed from plotting area

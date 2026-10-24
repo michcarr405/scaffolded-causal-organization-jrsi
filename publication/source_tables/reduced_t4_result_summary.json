@@ -1,0 +1,50 @@
+{
+  "design_csv_sha256": "2d7be8d3d972a25619079075c93a13e8c168a827838713554aaf94ed62771392",
+  "execution_spec_sha256": "4db8a512a8dd1516318997b904051b331d267354eb96f89879123a9ff2b63fc1",
+  "finite_distance_better_RMSE": true,
+  "local_distance_law": {
+    "class_mean_R2": -1.3113717404996508,
+    "class_mean_RMSE": 0.5696950445881718,
+    "pooled_block_R2": -1.2846782926822349,
+    "pooled_block_RMSE": 0.5722499814592048
+  },
+  "mean_normalized_response": {
+    "112": 1.0215623934268863,
+    "144": 0.9694749256395635,
+    "16": 0.008129808390072256,
+    "32": 0.3790328516267616,
+    "48": 0.7647949315818287,
+    "64": 1.0,
+    "80": 1.0822258557256865
+  },
+  "n_blocks": 30,
+  "n_probe_draws": 32,
+  "orientations_per_distance": 4,
+  "plan_sha256": "277ebecbf93efa39bdff2b71eaa265257ab9718ff7675e2630cab5230da0f8a7",
+  "prediction": {
+    "112": 1.6312236074632689,
+    "144": 2.0032790089693937,
+    "16": 0.26868714989241915,
+    "32": 0.5245105338339734,
+    "48": 0.7680860222691736,
+    "64": 1.0,
+    "80": 1.2208107778514952
+  },
+  "seed_collision_audit": "PASS",
+  "target_distances": [
+    16.0,
+    32.0,
+    48.0,
+    64.0,
+    80.0,
+    112.0,
+    144.0
+  ],
+  "zero_parameter_finite_distance": {
+    "class_mean_R2": -0.5756380726267758,
+    "class_mean_RMSE": 0.47036584162291445,
+    "lambda": 326.128666514,
+    "pooled_block_R2": -0.5639207506967434,
+    "pooled_block_RMSE": 0.47345709670188046
+  }
+}

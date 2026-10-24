@@ -1,0 +1,3 @@
+panel,reader_facing_role,primary_source,provenance
+a,Training history predicts maximal expression,T3_PEAK_RESULTS.csv; T3_RESULT_SUMMARY.json,prospective acquisition-expression prediction
+b,Prespecified strong-versus-weak directional contrast,T5_PROBE_LEVEL_RESULTS.csv; T5_RESULT_SUMMARY.json,prospective directional contrast after theory revision

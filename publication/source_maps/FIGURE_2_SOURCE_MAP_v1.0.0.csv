@@ -1,0 +1,5 @@
+panel,display,source,status,inferential_unit
+a,ancestral cost across 22-point scaffold-strength grid,RATIO_SUMMARY_22pt_confirmatory_v1.0.0.csv,independent prospective 22-point campaign,30 root-seed blocks per strength
+b,selected and neutral change from ancestral baseline,RATIO_SUMMARY_22pt_confirmatory_v1.0.0.csv,independent prospective 22-point campaign,30 root-seed blocks per strength
+c,selected-specific Delta C_down for two erasures,MAPPING_SUMMARY_v1.0.0.csv,prospective confirmatory intervention,paired root-seed block; n=30 per scaffold
+d,cross-evaluation matrix and Delta H,CROSS_EVAL_SELECTED_MINUS_NEUTRAL_MATRIX_v1.0.0.csv; MAPPING_SUMMARY_v1.0.0.csv,prospective confirmatory cross-evaluation,paired root-seed block; n=30 per scaffold

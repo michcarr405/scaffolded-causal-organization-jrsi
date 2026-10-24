@@ -6,7 +6,7 @@ The network-enabled RC4 clean-room workflow completed successfully on the `rc4-c
 
 Validated components included:
 
-- installation from declared Python dependencies, with Numba required by the recovered Model B dense-22 runner;
+- installation from declared Python dependencies, including Numba required by the recovered Model B dense-22 runner;
 - repository structure and full SHA manifest;
 - pytest suite;
 - recovered production-bundle release-form validation;

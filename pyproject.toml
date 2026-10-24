@@ -1,7 +1,7 @@
 [project]
 name = "scaffolded-causal-organization-reproducibility"
-version = "0.1.5"
-description = "RC4.2 release-candidate reproducibility artifact for scaffolded causal organization"
+version = "0.1.7"
+description = "RC4.4 release-candidate reproducibility artifact for scaffolded causal organization"
 requires-python = ">=3.13"
 dependencies = [
   "numpy==2.3.5",

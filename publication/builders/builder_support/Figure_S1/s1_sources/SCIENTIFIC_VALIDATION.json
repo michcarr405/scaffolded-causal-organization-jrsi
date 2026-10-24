@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "source_campaign": "MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0",
+  "condition": {
+    "scaffold": "SCF0",
+    "beta": 4.0,
+    "theta": 1.2,
+    "inherit_prob": 0.975,
+    "n_blocks": 30
+  },
+  "g0_pair_identity": {
+    "passed": true,
+    "n_equal": 30,
+    "n_expected": 30
+  },
+  "windows_per_block": 35840,
+  "total_windows_each_emergence_panel": 1075200,
+  "normalization_errors": {
+    "g0_abs_sum_minus_1": 0.0,
+    "g250_neutral_abs_sum_minus_1": 0.0,
+    "g250_selected_abs_sum_minus_1": 0.0,
+    "unitshuffle_pooled_abs_sum_minus_1": 0.0
+  },
+  "full_motif_set_I_SM_bits": {
+    "g0_shared_ancestor": 0.002123628259119115,
+    "g250_neutral": 0.1541265960233116,
+    "g250_selected": 0.7951500465189125,
+    "g250_selected_after_exact_margin_pooled": 1.5950405799899917e-05,
+    "g250_selected_after_primary_factorized": 0.0
+  },
+  "primary_factorized_validation": {
+    "max_abs_post_erasure_enrichment_bits": 0.0,
+    "max_abs_joint_minus_product_marginals": 0.0
+  },
+  "exact_margin_validation": {
+    "n_shuffles_per_block": 128,
+    "total_selected_shuffle_realizations_pooled_for_visualization": 3840,
+    "max_global_motif_count_error": 0,
+    "max_segment_size_error": 0,
+    "top24_residual_enrichment_min_bits": -0.010703688771627253,
+    "top24_residual_enrichment_max_bits": 0.0070609525354247025,
+    "top24_residual_enrichment_mean_abs_bits": 0.0029528365738083428,
+    "full_residual_I_SM_bits": 1.5950405799899917e-05
+  },
+  "top24_rule": "Top 24 motifs by sum_s P_selected_g250(s,m)*abs(log2[P(s,m)/(P(s)P(m))]); rows grouped by preferred selected-g250 segment and ordered by preferred-segment enrichment.",
+  "display_alias": "Alphabet integer symbols 0,1,2,3 are displayed as A,B,C,D.",
+  "important_estimator_note": "S6 panel c pools motif-segment counts across all 128 exact-margin shuffle realizations per selected block for descriptive structural visualization. The frozen C_down alternative estimator instead averages JSD values across shuffle realizations; S6 does not replace that estimator."
+}

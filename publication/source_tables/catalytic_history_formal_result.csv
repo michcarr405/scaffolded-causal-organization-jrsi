@@ -1,0 +1,2 @@
+endpoint,mean,positive_blocks,n_blocks,sign_p_one_sided,ci99_low,ci99_high,pass
+H_fit,0.07939628512714411,29,30,2.8870999813079834e-08,0.06581039517563711,0.09180096387085454,True

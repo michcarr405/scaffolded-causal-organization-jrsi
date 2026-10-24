@@ -1,0 +1,128 @@
+{
+  "status": "publication-asset extraction record; manuscript and Supplement documents themselves remain excluded",
+  "method": "vector PDF clip from current compiled manuscript/Supplement; PNG previews rendered from clipped PDFs",
+  "source_documents_not_packaged": true,
+  "figures": {
+    "Figure_1": {
+      "source": "Royal_Society_Interface___Scaffold (1)(1).pdf",
+      "page_1based": 13,
+      "clip": [
+        45.0,
+        48.0,
+        540.0,
+        405.2923889160156
+      ],
+      "caption_y": 413.2923889160156
+    },
+    "Figure_2": {
+      "source": "Royal_Society_Interface___Scaffold (1)(1).pdf",
+      "page_1based": 14,
+      "clip": [
+        45.0,
+        48.0,
+        540.0,
+        405.734375
+      ],
+      "caption_y": 413.734375
+    },
+    "Figure_3": {
+      "source": "Royal_Society_Interface___Scaffold (1)(1).pdf",
+      "page_1based": 15,
+      "clip": [
+        45.0,
+        48.0,
+        540.0,
+        403.1393737792969
+      ],
+      "caption_y": 411.1393737792969
+    },
+    "Figure_4": {
+      "source": "Royal_Society_Interface___Scaffold (1)(1).pdf",
+      "page_1based": 16,
+      "clip": [
+        45.0,
+        48.0,
+        540.0,
+        235.69735717773438
+      ],
+      "caption_y": 243.69735717773438
+    },
+    "Figure_5": {
+      "source": "Royal_Society_Interface___Scaffold (1)(1).pdf",
+      "page_1based": 17,
+      "clip": [
+        45.0,
+        48.0,
+        540.0,
+        373.3233642578125
+      ],
+      "caption_y": 381.3233642578125
+    },
+    "Figure_S1": {
+      "source": "Roysal_Society_Interface_Scaffold_Supp (1).pdf",
+      "page_1based": 9,
+      "clip": [
+        45.0,
+        48.0,
+        540.0,
+        304.5087585449219
+      ],
+      "caption_y": 312.5087585449219
+    },
+    "Figure_S2": {
+      "source": "Roysal_Society_Interface_Scaffold_Supp (1).pdf",
+      "page_1based": 10,
+      "clip": [
+        45.0,
+        48.0,
+        540.0,
+        429.97674560546875
+      ],
+      "caption_y": 437.97674560546875
+    },
+    "Figure_S3": {
+      "source": "Roysal_Society_Interface_Scaffold_Supp (1).pdf",
+      "page_1based": 11,
+      "clip": [
+        45.0,
+        48.0,
+        540.0,
+        219.31173706054688
+      ],
+      "caption_y": 227.31173706054688
+    },
+    "Figure_S4": {
+      "source": "Roysal_Society_Interface_Scaffold_Supp (1).pdf",
+      "page_1based": 11,
+      "clip": [
+        45.0,
+        410.0,
+        540.0,
+        605.4337768554688
+      ],
+      "caption_y": 613.4337768554688
+    },
+    "Figure_S5": {
+      "source": "Roysal_Society_Interface_Scaffold_Supp (1).pdf",
+      "page_1based": 12,
+      "clip": [
+        45.0,
+        48.0,
+        540.0,
+        371.03076171875
+      ],
+      "caption_y": 379.03076171875
+    },
+    "Figure_S6": {
+      "source": "Roysal_Society_Interface_Scaffold_Supp (1).pdf",
+      "page_1based": 13,
+      "clip": [
+        45.0,
+        48.0,
+        540.0,
+        413.2517395019531
+      ],
+      "caption_y": 421.2517395019531
+    }
+  }
+}

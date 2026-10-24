@@ -1,0 +1,13 @@
+signature,realization,display_value,display_context,canonical_source_path
+History specificity,Model B,11.91,Delta H score units; 30/30,provenance/original_campaigns/canonical/model_b/four_scaffold/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/analysis/MAPPING_SUMMARY_v1.0.0.csv
+History specificity,Catalytic,0.0794,H_fit fitness units; 29/30,experiments/recovered/catalytic/reciprocal_history/results/FORMAL_RESULT.csv
+History specificity,Lattice,0.00854,matching-history advantage; 30/30,experiments/recovered/lattice/original_prospective_control/results/formal_contrasts.csv
+Heredity dependence,Model B,0.00366,Delta C_down bits at p=.975,provenance/original_campaigns/canonical/model_b/transmission_fidelity/MODEL_B_DCC_TRANSMISSION_FIDELITY_CONFIRMATORY_RUN_v1.0.0/analysis/FIDELITY_SUMMARY_v1.0.0.csv
+Heredity dependence,Catalytic,0.03429,Delta V_rel at p=.975,experiments/recovered/catalytic/transmission_fidelity_replication/results/FIDELITY_SUMMARY.csv
+Heredity dependence,Lattice,0.17189,Delta V_rel at p=.975; 30/30,experiments/recovered/lattice/original_prospective_control/results/formal_contrasts.csv
+Acquisition-expression,Model B,R^2=0.966,125-point no-refit surface; 5/5 peaks,provenance/original_campaigns/canonical/reduced_theory/t3_t4/reduced_theory_prospective_T3T4/T3/T3_RESULT_SUMMARY.json
+Acquisition-expression,Catalytic,+0.000339,"probe - training, bits; 25/30",data/reference_outputs/catalytic/original_prospective/CONFIRM_BLOCK_RESULTS.csv
+Acquisition-expression,Lattice,+0.10597,Delta V_rel contrast; 30/30,experiments/recovered/lattice/original_prospective_control/results/formal_contrasts.csv
+Equal-distance anisotropy,Model B,r=0.988,8-direction profile; perm p=0.00025,provenance/original_campaigns/canonical/reduced_theory/t5/reduced_theory_v03_T5/T5_RESULT_SUMMARY.json
+Equal-distance anisotropy,Catalytic,p=2.67e-4,"Friedman, 8 directions; equal squared distance=1",data/reference_outputs/catalytic/original_prospective/CONFIRM_DIRECTION_SUMMARY.csv
+Equal-distance anisotropy,Lattice,r=0.999956,12-direction profile; 30/30,experiments/recovered/lattice/original_prospective_control/results/formal_contrasts.csv
