@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.1.0",
+  "schema_version": "1.2.0",
   "gate": "RC5",
-  "status": "PARTIAL_VERIFIED",
+  "status": "SOURCE_CROSSWALK_SUBSTANTIALLY_VERIFIED",
   "created": "2026-10-24",
   "reference": "Supplementary Table S2",
   "classification_note": "Source/config linkage does not imply independent end-to-end campaign rerun; recovered chains retain Class B.",
@@ -135,17 +135,156 @@
       ],
       "status": "VERIFIED_SOURCE_CONFIG",
       "unverified_fields": []
+    },
+    {
+      "id": "model_b_four_scaffold",
+      "s2": "Model B / four scaffold history and intervention",
+      "entrypoint": "provenance/original_campaigns/canonical/model_b/four_scaffold/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/scripts/run_production.py",
+      "configuration": "provenance/original_campaigns/canonical/model_b/four_scaffold/MODEL_B_DCC_CONFIRMATORY_RUN_v1.0.0/control/CONFIRMATORY_CONFIG_v1.0.0.json",
+      "seed_evidence": "Historical runner and/or frozen control; individual condition seeds not independently rederived in this crosswalk",
+      "verified_fields": [
+        "4 mappings SCF0–SCF3",
+        "30 root blocks per mapping; 120 paired blocks; 240 runs",
+        "250 generations",
+        "Model B standard parameters",
+        "C_down primary and unitshuffle K=128",
+        "50000 block bootstrap",
+        "Holm within four-map families"
+      ],
+      "status": "SOURCE_CONFIG_VERIFIED_WITH_PROVENANCE_CAVEAT",
+      "unverified_fields": [
+        "frozen design JSON retains production_authorized=false; verify contemporaneous authorized production record separately"
+      ]
+    },
+    {
+      "id": "model_b_fidelity",
+      "s2": "Model B / 18-point fidelity",
+      "entrypoint": "provenance/original_campaigns/canonical/model_b/transmission_fidelity/MODEL_B_DCC_TRANSMISSION_FIDELITY_CONFIRMATORY_RUN_v1.0.0/scripts/run_fidelity_production.py",
+      "configuration": "provenance/original_campaigns/canonical/model_b/transmission_fidelity/MODEL_B_DCC_TRANSMISSION_FIDELITY_CONFIRMATORY_RUN_v1.0.0/control/CONFIRMATORY_CONFIG_v1.0.0.json",
+      "seed_evidence": "Historical runner and/or frozen control; individual condition seeds not independently rederived in this crosswalk",
+      "verified_fields": [
+        "18 fidelity values",
+        "30 root blocks and 1080 runs",
+        "beta=3 theta=1.2",
+        "250 generations",
+        "bootstrap=50000",
+        "Holm within family"
+      ],
+      "status": "SOURCE_CONFIG_VERIFIED_WITH_PROVENANCE_CAVEAT",
+      "unverified_fields": [
+        "frozen design JSON retains production_authorized=false; verify contemporaneous authorized production record separately"
+      ]
+    },
+    {
+      "id": "model_b_acquisition_expression",
+      "s2": "Model B / T3 acquisition and expression",
+      "entrypoint": "provenance/original_campaigns/canonical/reduced_theory/t3_t4/reduced_theory_prospective_T3T4/T3/run_T3.py",
+      "configuration": "embedded historical runner constants",
+      "seed_evidence": "Historical runner and/or frozen control; individual condition seeds not independently rederived in this crosswalk",
+      "verified_fields": [
+        "five training ratios 1.75,2.00,2.75,3.25,3.75",
+        "30 blocks per training condition",
+        "250 generations",
+        "primary Q grid step 0.125 to 3",
+        "separate extended probe tail"
+      ],
+      "status": "SOURCE_RUNNER_VERIFIED_PORTABILITY_NOT_VERIFIED",
+      "unverified_fields": [
+        "historical absolute /mnt/data paths not portable without adapter"
+      ]
+    },
+    {
+      "id": "model_b_scalar_distance",
+      "s2": "Model B / T4 scalar distance",
+      "entrypoint": "provenance/original_campaigns/canonical/reduced_theory/t3_t4/reduced_theory_prospective_T3T4/T4/run_T4.py",
+      "configuration": "embedded historical runner constants + T4_PROBE_SCAFFOLDS_FROZEN.csv",
+      "seed_evidence": "Historical runner and/or frozen control; individual condition seeds not independently rederived in this crosswalk",
+      "verified_fields": [
+        "30 root blocks",
+        "250 generations",
+        "32 probe draws",
+        "50000 bootstrap replicates",
+        "bootstrap_seed=184920177"
+      ],
+      "status": "SOURCE_RUNNER_VERIFIED_PORTABILITY_NOT_VERIFIED",
+      "unverified_fields": [
+        "historical absolute /mnt/data paths not portable without adapter"
+      ]
+    },
+    {
+      "id": "model_b_directional",
+      "s2": "Model B / T5 directional anisotropy",
+      "entrypoint": "provenance/original_campaigns/canonical/reduced_theory/t5/reduced_theory_v03_T5/run_T5.py",
+      "configuration": "embedded historical runner constants + T5_PROBE_SCAFFOLDS.csv",
+      "seed_evidence": "Historical runner and/or frozen control; individual condition seeds not independently rederived in this crosswalk",
+      "verified_fields": [
+        "30 root blocks",
+        "250 generations",
+        "32 probe draws",
+        "beta=4",
+        "50000 permutations",
+        "permutation seed=91273411"
+      ],
+      "status": "SOURCE_RUNNER_VERIFIED_PORTABILITY_NOT_VERIFIED",
+      "unverified_fields": [
+        "historical absolute /mnt/data paths not portable without adapter"
+      ]
+    },
+    {
+      "id": "catalytic_initial_prospective",
+      "s2": "Catalytic / original prospective confirmatory",
+      "entrypoint": "provenance/original_campaigns/canonical/catalytic/original_prospective/CATALYTIC_COMPLEX_SCO_v1.0.0/confirmatory/run_confirmatory.py",
+      "configuration": "embedded historical runner constants",
+      "seed_evidence": "Historical runner and/or frozen control; individual condition seeds not independently rederived in this crosswalk",
+      "verified_fields": [
+        "32 dimers",
+        "population 48",
+        "180 generations",
+        "mutation 0.01",
+        "selection=24",
+        "transmission=0.975",
+        "scaffold_strength=2",
+        "affinity_seed=51073",
+        "root_seed_base=2000000"
+      ],
+      "status": "SOURCE_RUNNER_VERIFIED_HISTORICAL_PATHS",
+      "unverified_fields": []
+    },
+    {
+      "id": "lattice_mapping",
+      "s2": "Lattice / 41-point post-confirmatory mapping",
+      "entrypoint": "provenance/original_campaigns/canonical/lattice/post_confirmatory_mapping/ABSTRACT_LATTICE_FIDELITY_TIME_SURFACE_RESULT_FREEZE_v1.0.0/source_campaign/scripts/run_mapping.py",
+      "configuration": "provenance/original_campaigns/canonical/lattice/post_confirmatory_mapping/ABSTRACT_LATTICE_FIDELITY_TIME_SURFACE_RESULT_FREEZE_v1.0.0/source_campaign/control/CONFIG_v1.0.0.json",
+      "seed_evidence": "Historical runner and/or frozen control; individual condition seeds not independently rederived in this crosswalk",
+      "verified_fields": [
+        "41 fidelities from 0 to 1 step 0.025",
+        "30 root blocks",
+        "50 dense generations",
+        "12 directional probe angles",
+        "12 erasure scrambles",
+        "bootstrap=1000 seed=6131701"
+      ],
+      "status": "SOURCE_CONFIG_VERIFIED",
+      "unverified_fields": []
+    },
+    {
+      "id": "lattice_sentinel",
+      "s2": "Lattice / six 200-generation sentinels",
+      "entrypoint": "provenance/original_campaigns/canonical/lattice/post_confirmatory_mapping/ABSTRACT_LATTICE_FIDELITY_TIME_SURFACE_RESULT_FREEZE_v1.0.0/source_campaign/scripts/run_mapping.py",
+      "configuration": "provenance/original_campaigns/canonical/lattice/post_confirmatory_mapping/ABSTRACT_LATTICE_FIDELITY_TIME_SURFACE_RESULT_FREEZE_v1.0.0/source_campaign/control/CONFIG_v1.0.0.json",
+      "seed_evidence": "Historical runner and/or frozen control; individual condition seeds not independently rederived in this crosswalk",
+      "verified_fields": [
+        "six sentinel fidelity values 0.5,0.7,0.8,0.9,0.95,1",
+        "200 sentinel generations",
+        "30 root blocks",
+        "root_seed_base=12000000"
+      ],
+      "status": "SOURCE_CONFIG_VERIFIED",
+      "unverified_fields": []
     }
   ],
   "remaining_s2_rows_not_exhaustively_executable_mapped": [
-    "Model B four-scaffold intervention/history",
-    "Model B primary seven-point scaffold strength",
-    "Model B fidelity",
-    "Model B acquisition-expression",
-    "Model B scalar-distance",
-    "Model B directional",
-    "Catalytic initial prospective causal assay",
-    "Lattice post-confirmatory mapping and sentinel executable mapping"
+    "Model B primary seven-point scaffold-strength campaign (separate from dense 22-point)"
   ],
-  "gate_decision": "Partial S2 crosswalk; five recovered chains now have direct source/config/seed checks. Other campaign-specific executable mappings remain open."
+  "gate_decision": "OPEN: separate seven-point primary run is not yet linked; historical runners include absolute paths; frozen-design authorization fields are not production authorization evidence."
 }
