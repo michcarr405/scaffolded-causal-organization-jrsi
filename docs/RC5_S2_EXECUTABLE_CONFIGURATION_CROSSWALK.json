@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.2.0",
+  "schema_version": "1.3.0",
   "gate": "RC5",
-  "status": "SOURCE_CROSSWALK_SUBSTANTIALLY_VERIFIED",
+  "status": "CROSSWALK_COVERAGE_COMPLETE_WITH_LIMITATIONS",
   "created": "2026-10-24",
   "reference": "Supplementary Table S2",
   "classification_note": "Source/config linkage does not imply independent end-to-end campaign rerun; recovered chains retain Class B.",
@@ -281,10 +281,30 @@
       ],
       "status": "SOURCE_CONFIG_VERIFIED",
       "unverified_fields": []
+    },
+    {
+      "id": "model_b_primary_7point",
+      "s2": "Model B / primary seven-point scaffold-strength campaign",
+      "entrypoint": "provenance/original_campaigns/canonical/model_b/scaffold_strength_primary/MODEL_B_DCC_SCAFFOLD_STRENGTH_CONFIRMATORY_RUN_v1.0.0/scripts/run_strength_production.py",
+      "configuration": "provenance/original_campaigns/canonical/model_b/scaffold_strength_primary/MODEL_B_DCC_SCAFFOLD_STRENGTH_CONFIRMATORY_RUN_v1.0.0/control/CONFIRMATORY_CONFIG_v1.0.0.json",
+      "seed_evidence": "provenance/original_campaigns/canonical/model_b/scaffold_strength_primary/MODEL_B_DCC_SCAFFOLD_STRENGTH_CONFIRMATORY_RUN_v1.0.0/control/SEED_LEDGER_v1.0.0.csv; provenance/original_campaigns/canonical/model_b/scaffold_strength_primary/MODEL_B_DCC_SCAFFOLD_STRENGTH_CONFIRMATORY_RUN_v1.0.0/control/RUN_MANIFEST_AUTHORIZED_v1.0.0.csv",
+      "verified_fields": [
+        "seven beta/theta ratios: 0,1.5,2.5,3,3.5,4,4.5",
+        "30 root blocks",
+        "420 authorized manifest rows = 30 x 7 x 2",
+        "210 paired selected-neutral blocks/ratios",
+        "Model B: 80 units, 8 oligomers, 60 positions, 4 local states/segments",
+        "250 generations; p=0.975; theta=1.2",
+        "bootstrap count=50000; seed=151092729",
+        "runner requires authorization manifest and all production_authorized true",
+        "archived production completeness PASS: 420 states, 420 metric files, 420 run endpoints, 210 paired endpoints, zero missing"
+      ],
+      "status": "VERIFIED_SOURCE_CONFIG_AND_COMPLETENESS",
+      "unverified_fields": [
+        "frozen design file has pre-authorization false; authorized manifest is later record; not an independent rerun"
+      ]
     }
   ],
-  "remaining_s2_rows_not_exhaustively_executable_mapped": [
-    "Model B primary seven-point scaffold-strength campaign (separate from dense 22-point)"
-  ],
-  "gate_decision": "OPEN: separate seven-point primary run is not yet linked; historical runners include absolute paths; frozen-design authorization fields are not production authorization evidence."
+  "remaining_s2_rows_not_exhaustively_executable_mapped": [],
+  "gate_decision": "RC5 crosswalk documentation complete against located historical configs/runners/manifests; publication gate subject to explicit remaining portability/authorization caveats and independent validation of crosswalk JSON."
 }
