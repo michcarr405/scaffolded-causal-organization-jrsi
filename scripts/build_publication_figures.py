@@ -35,7 +35,7 @@ TARGETS = ["Figure_2", "Figure_3", "Figure_4", "Figure_5",
 
 BUILDER_FILES = {
     "Figure_2": "FIGURE_2_BUILD_FIGURE_2_v1.0.2.py",
-    "Figure_3": "FIGURE_3_build_figure3_final_v1.0.1.py",
+    "Figure_3": "FIGURE_3_build_figure3_final_v1.0.2.py",
     "Figure_4": "FIGURE_4_BUILD_FIGURE_4_v1.0.1.py",
     "Figure_5": "FIGURE_5_BUILD_FIGURE_5_v1.1.1.py",
     "Figure_S1": "FIGURE_S1_build_supplementary_jrsi_freezes_v1.py",
@@ -148,7 +148,7 @@ def build_target(target: str, staging_root: Path, main: Path, supp: Path) -> dic
     ws = staging_root / target
     if ws.exists(): shutil.rmtree(ws)
     ws.mkdir(parents=True)
-    builder = BUILDERS / BUILDER_FILES[target]
+    builder = (REPO / "publication/builders" / BUILDER_FILES[target]) if target == "Figure_3" else BUILDERS / BUILDER_FILES[target]
     if not builder.exists(): raise RuntimeError(f"Missing frozen builder: {builder}")
     support = SUPPORT / target
     notes: list[str] = []
