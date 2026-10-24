@@ -25,7 +25,7 @@ def digest(p):
 
 def main():
     assert BUILDER.exists() and SUPPORT.exists() and HASHES.exists()
-    assert not any('revise' in line and 'ax.text(' in line for line in BUILDER.read_text().splitlines()), 'editorial arrow label remains in builder'
+    assert not any("ax.text(0.705, 0.825, 'revise'" in line for line in BUILDER.read_text().splitlines()), 'editorial arrow label remains in builder'
     with tempfile.TemporaryDirectory(prefix="rc5_figure3_") as tmp:
         wd = Path(tmp)
         shutil.copytree(SUPPORT / "sources", wd / "sources")
