@@ -4,7 +4,7 @@ import csv, hashlib, subprocess, sys
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / 'manifests/SHA256_MANIFEST.csv'
 EXCLUDED = {'manifests/SHA256_MANIFEST.csv', '.github/workflows/rc4-clean-room-v2.yml'}
-IGNORED_DIRS = {'.git', '.venv', '__pycache__', '.pytest_cache', 'work'}
+IGNORED_DIRS = {'.git', '.venv', '__pycache__', '.pytest_cache'}
 IGNORED_FILES = {'.DS_Store'}
 
 def inventory_paths():
