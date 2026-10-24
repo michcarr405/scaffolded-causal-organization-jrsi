@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0.0",
+  "gate": "RC5",
+  "status": "PARTIAL_VERIFIED",
+  "created": "2026-10-24",
+  "reference": "Supplementary Table S2",
+  "classification_note": "Source/config linkage does not imply independent end-to-end campaign rerun; recovered chains retain Class B.",
+  "entries": [
+    {
+      "id": "model_b_strength_22",
+      "s2": "Model B / Independent high-resolution scaffold-strength replication",
+      "entrypoint": "experiments/recovered/model_b/scaffold_strength_dense_22point/scripts/run_strength_production.py",
+      "configuration": "experiments/recovered/model_b/scaffold_strength_dense_22point/control/RUN_MANIFEST_AUTHORIZED_v1.0.0.csv",
+      "seed_evidence": "experiments/recovered/model_b/scaffold_strength_dense_22point/control/RUN_MANIFEST_FROZEN_v1.0.0.csv",
+      "verified_fields": [
+        "1320 authorized runs",
+        "660 selected-neutral pairs",
+        "block_id and ratio_id paired",
+        "base_seed_uint32 in run manifest"
+      ],
+      "status": "VERIFIED_PARTIAL",
+      "unverified_fields": [
+        "independent inspection of every individual simulation setting"
+      ]
+    },
+    {
+      "id": "catalytic_strength_22",
+      "s2": "Catalytic / Prospective scaffold-strength campaign",
+      "entrypoint": "experiments/recovered/catalytic/scaffold_strength_22point/code/run_campaign.py",
+      "configuration": "experiments/recovered/catalytic/scaffold_strength_22point/control/CONFIG_v1.0.0.json",
+      "seed_evidence": "CONFIG_v1.0.0.json: affinity_seed=51073; bootstrap_seed=42222026",
+      "verified_fields": [
+        "22 scaffold strength values",
+        "n_blocks=30",
+        "population_size=48",
+        "dimers_per_cell=32",
+        "generations=180",
+        "mutation_probability=0.01",
+        "selection_coefficient=24",
+        "michaelis_K=1",
+        "transmission_fidelity=0.975",
+        "bootstrap_reps=20000"
+      ],
+      "status": "VERIFIED_SOURCE_CONFIG",
+      "unverified_fields": []
+    },
+    {
+      "id": "catalytic_fidelity_18",
+      "s2": "Catalytic / Independent transmission-fidelity replication",
+      "entrypoint": "experiments/recovered/catalytic/transmission_fidelity_18point/scripts/run_catalytic_fidelity_confirmatory.py",
+      "configuration": "experiments/recovered/catalytic/transmission_fidelity_18point/control/CONFIG_v1.0.0.json",
+      "seed_evidence": "CONFIG_v1.0.0.json: root_seed_base=5000000, bootstrap_seed=781245901",
+      "verified_fields": [
+        "18-point fidelity grid",
+        "n_root_blocks=30",
+        "n_evolutionary_runs=1080",
+        "population=48",
+        "n_dimers_per_cell=32",
+        "generations=180",
+        "mutation_probability=0.01",
+        "selection_coefficient=24",
+        "michaelis_K=1",
+        "scaffold_strength=2",
+        "affinity_seed=51073",
+        "bootstrap_replicates=50000"
+      ],
+      "status": "VERIFIED_SOURCE_CONFIG",
+      "unverified_fields": []
+    },
+    {
+      "id": "catalytic_reciprocal_history",
+      "s2": "Catalytic / Prospective reciprocal-history test",
+      "entrypoint": "experiments/recovered/catalytic/reciprocal_history/preoutcome/run_history_specificity_confirmatory.py",
+      "configuration": "embedded executable constants",
+      "seed_evidence": "Original runner and seed ledger recovered; source details not fully cross-inspected for this crosswalk",
+      "verified_fields": [
+        "N=32 dimers",
+        "POP=48",
+        "GENS=180",
+        "MU=0.01",
+        "SEL=24",
+        "K=1",
+        "P=0.975",
+        "S=2",
+        "ASEED=51073",
+        "H1=e1 and H2=e2"
+      ],
+      "status": "VERIFIED_PARTIAL",
+      "unverified_fields": [
+        "full root seed and bootstrap settings crosswalk"
+      ]
+    },
+    {
+      "id": "lattice_original_prospective",
+      "s2": "Lattice / Prospective abstract control",
+      "entrypoint": "experiments/recovered/lattice/original_prospective_control/scripts/run_confirmatory.py",
+      "configuration": "experiments/recovered/lattice/original_prospective_control/control/CONFIG_v1.0.0.json",
+      "seed_evidence": "CONFIG_v1.0.0.json: task_seed=1207, root_seed_base=9000000, bootstrap_seed=4420017",
+      "verified_fields": [
+        "24 sites",
+        "population=64",
+        "generations=200",
+        "beta=gamma=1.4",
+        "kappa=0.5",
+        "lambda=4",
+        "mu=0.003",
+        "selection_softmax=1.5",
+        "scaffold_amplitude=1.2",
+        "base_p=0.95",
+        "anisotropy_radius=0.6",
+        "n_blocks=30",
+        "18-point fidelity grid",
+        "four history angles",
+        "ten expression probes",
+        "12 directional probes",
+        "bootstrap_reps=50000"
+      ],
+      "status": "VERIFIED_SOURCE_CONFIG",
+      "unverified_fields": []
+    }
+  ],
+  "remaining_s2_rows_not_exhaustively_executable_mapped": [
+    "Model B four-scaffold intervention/history",
+    "Model B primary seven-point scaffold strength",
+    "Model B fidelity",
+    "Model B acquisition-expression",
+    "Model B scalar-distance",
+    "Model B directional",
+    "Catalytic initial prospective causal assay",
+    "Lattice post-confirmatory mapping and sentinel executable mapping"
+  ],
+  "gate_decision": "RC5 remains OPEN pending full S2 crosswalk; no new discrepancies detected."
+}
