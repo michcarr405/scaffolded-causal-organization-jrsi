@@ -14,8 +14,11 @@ This repository contains the release-candidate computational artifact for the JR
 - RC4.3 exact frozen figure-builder recovery: PASS
 - RC4.4 portable one-command figure rebuild: PASS locally and in GitHub clean-room run `40089509454` (successful `clean-room-v2` job)
 - RC5.1 Figure 3c label removal and publication-asset re-freeze: PASS; corrected assets, hashes and portable builder committed at `b5b962f6c3926d1218e1c005e15555365537684d`
-- RC5.2 manuscript/repository consistency: in progress; latest uploaded main and Supplement LaTeX compile, final evidence audit remains open
-- RC6 final lock: pending
+- RC5.2 manuscript/repository consistency: PASS
+- RC5.3 numerical traceability and inferential-record audit: PASS against archived outputs
+- RC5.4 configuration crosswalk and visual QA: PASS; 14 Table S2 campaign mappings and author-inspected Supplement
+- RC5 final gate: PASS (2026-10-24); see `docs/RC5_GATE_CLOSURE_2026-10-24.md`
+- RC6 final lock and release archiving: in progress; no release tag or DOI yet
 
 The successful RC4 and RC4.4 GitHub-hosted runs demonstrated network dependency installation under Python 3.13, repository/manifest validation, tests, recovered-campaign release-form validation, and catalytic prospective replay under the documented portable-equivalence rule.
 
