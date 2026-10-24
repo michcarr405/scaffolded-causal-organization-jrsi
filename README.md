@@ -12,11 +12,12 @@ This repository contains the release-candidate computational artifact for the JR
 - RC4.1 publication-figure/source-table packaging: PASS
 - RC4.2 release-hygiene synchronization: PASS
 - RC4.3 exact frozen figure-builder recovery: PASS
-- RC4.4 portable one-command figure rebuild: PASS locally; final GitHub clean-room run pending
-- RC5 manuscript/repository consistency: pending
+- RC4.4 portable one-command figure rebuild: PASS locally and in GitHub clean-room run `40089509454` (successful `clean-room-v2` job)
+- RC5.1 Figure 3c label removal and publication-asset re-freeze: PASS; corrected assets, hashes and portable builder committed at `b5b962f6c3926d1218e1c005e15555365537684d`
+- RC5.2 manuscript/repository consistency: in progress; latest uploaded main and Supplement LaTeX compile, final evidence audit remains open
 - RC6 final lock: pending
 
-The successful RC4 GitHub-hosted run demonstrated network dependency installation under Python 3.13, repository/manifest validation, tests, recovered-campaign release-form validation, and catalytic prospective replay under the documented portable-equivalence rule.
+The successful RC4 and RC4.4 GitHub-hosted runs demonstrated network dependency installation under Python 3.13, repository/manifest validation, tests, recovered-campaign release-form validation, and catalytic prospective replay under the documented portable-equivalence rule.
 
 ## Recovery correction
 
