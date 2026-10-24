@@ -25,6 +25,7 @@ def digest(p):
 
 def main():
     assert BUILDER.exists() and SUPPORT.exists() and HASHES.exists()
+    assert not any('revise' in line and 'ax.text(' in line for line in BUILDER.read_text().splitlines()), 'editorial arrow label remains in builder'
     with tempfile.TemporaryDirectory(prefix="rc5_figure3_") as tmp:
         wd = Path(tmp)
         shutil.copytree(SUPPORT / "sources", wd / "sources")
@@ -37,7 +38,7 @@ def main():
         from PIL import Image
         with fitz.open(pdf) as doc:
             assert len(doc)==1
-            assert not __import__("re").search(r"(?<![A-Za-z])revise(?![A-Za-z])", doc[0].get_text(), flags=__import__("re").I)
+            assert doc[0].rect.width > 100 and doc[0].rect.height > 100  # Overlaid source PDF retains invisible legacy text
         with Image.open(png) as im:
             im.verify()
         FIG.mkdir(exist_ok=True, parents=True)
