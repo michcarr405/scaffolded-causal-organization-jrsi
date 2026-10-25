@@ -1,40 +1,36 @@
-# Scaffolded causal organization - reproducibility artifact
+# Scaffolded causal organization - computational reproducibility artifact
 
-This repository contains the release-candidate computational artifact for the JRSI scaffolded causal organization manuscript.
+This repository contains the published computational reproducibility artifact for the manuscript **Scaffolded emergence of inherited causal organization in pre-genetic systems**, submitted to the *Journal of the Royal Society Interface*. The artifact contains three model realizations, frozen computational outputs, provenance records, publication figures and validation scripts. The manuscript and Supplementary Material remain separate submission documents and are not embedded in this repository.
 
-## Gate status
+## Archived release and citation
 
-- RC1 assembly: PASS
-- RC2 provenance/package audit: PASS
-- RC3 packaged validation: PASS
-- RC3.1 production-bundle recovery integration: PASS
-- RC4 network-enabled clean-room validation: PASS
-- RC4.1 publication-figure/source-table packaging: PASS
-- RC4.2 release-hygiene synchronization: PASS
-- RC4.3 exact frozen figure-builder recovery: PASS
-- RC4.4 portable one-command figure rebuild: PASS locally and in GitHub clean-room run `40089509454` (successful `clean-room-v2` job)
-- RC5.1 Figure 3c label removal and publication-asset re-freeze: PASS; corrected assets, hashes and portable builder committed at `b5b962f6c3926d1218e1c005e15555365537684d`
-- RC5.2 manuscript/repository consistency: PASS
-- RC5.3 numerical traceability and inferential-record audit: PASS against archived outputs
-- RC5.4 configuration crosswalk and visual QA: PASS; 14 Table S2 campaign mappings and author-inspected Supplement
-- RC5 final gate: PASS (2026-10-24); see `docs/RC5_GATE_CLOSURE_2026-10-24.md`
-- RC6 final lock and release archiving: in progress; no release tag or DOI yet
+- **Archived version:** [v1.0.1 on GitHub](https://github.com/michcarr405/scaffolded-causal-organization-jrsi/releases/tag/v1.0.1), an archival-only release of the scientifically identical [v1.0.0](https://github.com/michcarr405/scaffolded-causal-organization-jrsi/releases/tag/v1.0.0).
+- **Version-specific Zenodo DOI:** [10.5281/zenodo.23628232](https://doi.org/10.5281/zenodo.23628232).
+- **Validated scientific commit (both tags):** `3c9baf42177287fc792ec4d7b55c575024fbef00`.
+- **Clean-room evidence:** [GitHub Actions run 40138073620](https://github.com/michcarr405/scaffolded-causal-organization-jrsi/actions/runs/40138073620) — successful at that exact commit.
+- **License:** MIT.
 
-The successful RC4 and RC4.4 GitHub-hosted runs demonstrated network dependency installation under Python 3.13, repository/manifest validation, tests, recovered-campaign release-form validation, and catalytic prospective replay under the documented portable-equivalence rule.
+For citations to the archived software/data artifact, cite the Zenodo v1.0.1 record. The journal article's final bibliographic details will be supplied when available. This ongoing repository branch may contain subsequent documentation updates; the immutable versioned Git tags and Zenodo record preserve the exact scientifically validated release.
 
-## Recovery correction
+## Reproducibility status
 
-Five production chains previously classified as incomplete were recovered from archived project sources: Model B independent 22-point scaffold strength, catalytic 22-point scaffold strength, catalytic 18-point fidelity, catalytic reciprocal history, and the original prospective lattice control. Their historical originals are preserved under `provenance/original_campaigns/recovered/`; release-form copies normalize only non-scientific path/output plumbing.
+**RC6 clean-room validation: PASS (24 October 2026).** A fresh GitHub-hosted Ubuntu/Python 3.13 environment installed the pinned dependencies, exported a Git-free candidate, validated repository structure, the SHA-256 manifest, published assets and builders, ran tests, rebuilt computational publication figures, validated recovered campaign packages in release form and replayed the original catalytic prospective assay.
 
-No scientific result, estimator, seed, parameter grid, intervention, inferential unit, or frozen output was changed by the recovery.
+**Five recovered original production campaigns remain Class B**, not Class A. Original production provenance was recovered and documented, and portability/release-form checks passed; the complete large-scale production runs were not all independently recomputed end-to-end. Historical original scripts may contain machine-specific paths; portable release copies normalize only non-scientific path/output plumbing. No scientific kernel, model parameter, seed, grid, inferential unit or frozen result was altered by that recovery. See `docs/CAMPAIGN_STATUS_REVISED.md` and `provenance/CAMPAIGN_REPRODUCIBILITY_STATUS_v1.3.0.json`.
 
-## Publication layer
+The models do **not** establish scaffold endogenization, autonomous scaffold reconstruction or a physically complete protocell.
 
-`publication/` contains manuscript-current Figures 1-5 and S1-S6 in PDF and PNG form, processed source tables, exact recovered frozen builders for Figures 2-5 and S1-S6, frozen builder-support inputs/reference PDFs, and SHA/provenance maps linking panels to canonical repository evidence. Figure 1 is the documented artwork exception with no native computational builder.
+## Repository contents
 
-The manuscript and Supplement PDFs themselves remain external working publication documents and are intentionally not embedded in the computational repository.
+- `publication/` — Figures 1–5 and S1–S6 in publication forms, supporting source tables, hashes and provenance maps. Recovered frozen computational builders reproduce Figures 2–5 and S1–S6; Figure 1 is the documented native-artwork exception.
+- `provenance/` — archived original and recovered campaign sources, configurations, root-seed records, evidence inventories and campaign-specific status.
+- `scripts/` — package, manifest, publication-asset, figure-builder, figure-reproduction and recovered-campaign validation.
+- `manifests/SHA256_MANIFEST.csv` — checksum inventory for the frozen v1.0.1 artifact, validated at the tagged commit.
+- `docs/` — gate closure, parameter/campaign crosswalks, audit and reproducibility documentation.
 
 ## Quick validation
+
+Install the pinned dependencies in `requirements.txt` in a clean Python environment before running these repository-root commands:
 
 ```bash
 python scripts/validate_repository.py
@@ -46,10 +42,13 @@ python -m pytest -q
 python scripts/validate_recovered_campaigns.py
 ```
 
-## Recovered campaign status
+The GitHub Actions clean-room workflow is `.github/workflows/rc4-clean-room-v2.yml`. The workflow name reflects its original development gate; its successful RC6 dispatch is linked above.
 
-The recovered production chains retain conservative reproducibility class B. RC4 established clean installation and release-form compile/dry-run validation, and the catalytic prospective assay was replayed successfully. Class A is reserved for campaigns that have also been rerun end-to-end in release form; the large recovered production campaigns were not all recomputed in full during RC4. See `docs/CAMPAIGN_STATUS_REVISED.md` and `provenance/CAMPAIGN_REPRODUCIBILITY_STATUS_v1.3.0.json`.
+## Historical validation record
 
-## Release boundary
+- **RC1–RC3.1:** package assembly, provenance checks, initial package validation and recovery integration — PASS.
+- **RC4–RC4.4:** network-enabled clean-room checks and portable figure reproduction — PASS, including [run 40089509454](https://github.com/michcarr405/scaffolded-causal-organization-jrsi/actions/runs/40089509454).
+- **RC5:** Figure 3(c) release asset correction, manuscript/repository consistency, numerical traceability, 14-entry Table S2 configuration crosswalk and visual QA — PASS; see `docs/RC5_GATE_CLOSURE_2026-10-24.md`.
+- **RC6:** final validated artifact, checksum lock, full clean-room workflow and public GitHub/Zenodo archiving — PASS. Scientific tag target `3c9baf42177287fc792ec4d7b55c575024fbef00`.
 
-Do not create the final immutable Git tag or DOI until RC5 and RC6 pass. The repository URL and MIT license are fixed; the final semantic version, immutable tag, article citation, and Zenodo DOI remain intentionally pending.
+Documentation changes after the release do not alter the immutable scientific artifact or its DOI.
